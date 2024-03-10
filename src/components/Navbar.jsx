@@ -2,13 +2,12 @@ import { blackLogo } from '../assets/icons'
 import { navLinks } from '../constants'
 import { hamburger } from '../assets/icons'
 
-import { Link } from 'react-router-dom'
+import { Link, useMatch, useResolvedPath  } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <header className='padding-x py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
-
           <img
             src={blackLogo}
             alt='logo'
@@ -16,19 +15,43 @@ const Navbar = () => {
             height={29}
             className='m-0 w-[129px] h-[29px]'
           />
-        <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden font-medium'>
+        <ul className='flex-1 flex flex-start items-center gap-16 max-lg:hidden font-medium ml-16 text-lg font-montserrat '>
           {navLinks.map((item) => (
-            <Link to={item.href} key={item.label}>{item.label}</Link>
+            <CustomLink
+              to={item.href} 
+              key={item.label} 
+              className=''
+            >
+              {item.label}
+            </CustomLink>
           ))}
-        </ul>
-        <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
-          <a href='/'>Sign in</a>
+          <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24 ml-auto' >
+          Sign in
         </div>
+        </ul>
         <div className='hidden max-lg:block'>
           <img src={hamburger} alt='hamburger icon' width={25} height={25} />
         </div>
       </nav>
     </header>
+  )
+}
+
+
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+
+  return (
+    <li className={isActive ? 'border-b-2 border-flag-color' : "hover:text-gray-500"}>
+      {isActive ?
+          <p>{children}</p>
+        :
+          <Link to={to} {...props}>
+            {children}
+          </Link>
+      }
+    </li>
   )
 }
 
