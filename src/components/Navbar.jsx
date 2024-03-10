@@ -13,9 +13,9 @@ const Navbar = () => {
             alt='logo'
             width={129}
             height={29}
-            className='m-0 w-[129px] h-[29px]'
+            className='m-0 w-[129px] h-[29px] mr-16'
           />
-        <ul className='flex-1 flex flex-start items-center gap-16 max-lg:hidden font-medium ml-16 text-lg font-montserrat '>
+        <ul className='flex-1 flex flex-start items-center gap-16 max-lg:hidden font-medium text-lg font-montserrat '>
           {navLinks.map((item) => (
             <CustomLink
               to={item.href} 
