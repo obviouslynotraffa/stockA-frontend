@@ -1,9 +1,9 @@
-
+import Hero from "../components/Home/Hero"
 
 const Home = () => {
   return (
-    <section>
-      Home
+    <section className="max-container">
+      <Hero />
     </section>
   )
 }
