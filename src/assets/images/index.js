@@ -4,7 +4,7 @@ import Nike from './nike-logo.png'
 import OffWhite from './offwhite-logo.png'
 import Yeezy from './yeezy-logo.png'
 import JordanTrevis from './trevis.png'
-import DunkTrevis from './dunktrevis.jpg'
+import DunkTrevis from './dunktravis.jpg'
 import AirForceTrevis from './lowtravis.jpg'
 import ReactTrevis from './reacttrevis.jpg'
 
