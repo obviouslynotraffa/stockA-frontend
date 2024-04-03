@@ -6,8 +6,8 @@ import { Link, useMatch, useResolvedPath  } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <header className='padding-x py-8 z-10 w-full'>
-      <nav className='flex justify-between items-center max-container'>
+    <header className='padding-x py-8 z-10 w-full max-w-screen-wide m-auto'>
+      <nav className='flex justify-between items-center max-container '>
           <img
             src={blackLogo}
             alt='logo'
@@ -20,7 +20,6 @@ const Navbar = () => {
             <CustomLink
               to={item.href} 
               key={item.label} 
-              className=''
             >
               {item.label}
             </CustomLink>

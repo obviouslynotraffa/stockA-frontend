@@ -3,8 +3,8 @@ import { BrandImages } from "../../constants"
 
 const BestBrands = () => {
   return (
-    <section className="padding-x pb-8 w-full  bg-gradient-to-b from-gray-300 to-white">
-      <div className="flex flex-col justify-center items-center">
+    <section className="padding-x pb-8 w-full bg-gradient-to-b from-gray-300 to-white">
+      <div className="flex flex-col justify-center items-center max-w-screen-wide m-auto">
         <h2 className="md:text-4xl text-[30px] leading-loose  font-montserrat font-bold py-8">
             Best Seller Brands
         </h2>
