@@ -9,7 +9,7 @@ const BestBrands = () => {
             Best Seller Brands
         </h2>
 
-        <div className="flex flex-1 flex-wrap justify-evenly items-center md:flex-row flex-col py-8 gap-20">
+        <div className="flex flex-1 flex-wrap justify-evenly items-center py-8 gap-20">
             {BrandImages.map((brand)=> (
               <img 
                 key={brand.alt}
