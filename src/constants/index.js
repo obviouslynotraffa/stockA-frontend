@@ -1,10 +1,7 @@
-import { Nike } from '../assets/images/index'
-import {Jordan} from '../assets/images/index'
-import {Yeezy} from '../assets/images/index'
-import {OffWhite} from '../assets/images/index'
-import { DunkTrevis } from '../assets/images'
-import { AirForceTrevis } from '../assets/images'
-import { ReactTrevis } from '../assets/images'
+import { Nike, Jordan, Yeezy, OffWhite } from '../assets/images'
+import { DunkTrevis, AirForceTrevis, ReactTrevis } from '../assets/images'
+
+import { serviceIcon1, serviceIcon2, serviceIcon3 } from '../assets/icons';
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -46,4 +43,23 @@ export const TravisScottSneakers = [
         src:ReactTrevis,
         alt: "Travis x React"
     }
+];
+
+
+export const services = [
+    {
+        imgURL: serviceIcon2,
+        label: "Free shipping",
+        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+    },
+    {
+        imgURL: serviceIcon3,
+        label: "Secure Payment",
+        subtext: "Experience worry-free transactions with our secure payment options."
+    },
+    {
+        imgURL: serviceIcon1,
+        label: "Love to help you",
+        subtext: "Our dedicated team is here to assist you every step of the way."
+    },
 ];
