@@ -14,14 +14,14 @@ const Subscribe = () => {
                 </p>
             </div>
             
-            <div className='lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5'>
+            <div className='lg:max-w-[50%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 bg-white max-sm:bg-transparent rounded-full border-black'>
                 <input 
                     type='text' 
                     placeholder='subscribe@stocka.com' 
                     className='input py-5 rounded-full' 
                 />
                 <div className='flex max-sm:justify-end items-center max-sm:w-full'>
-                    <button className='w-full md:w-[100px] bg-black text-white rounded-full py-5'>
+                    <button className='w-[120px] max-sm:w-full bg-black text-white max-sm:rounded-full rounded-r-full py-5 hover:bg-slate-700 font-bold'>
                         Sign Up
                     </button>
                 </div>
