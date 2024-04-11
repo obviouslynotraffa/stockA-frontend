@@ -3,6 +3,8 @@ import { DunkTrevis, AirForceTrevis, ReactTrevis } from '../assets/images'
 
 import { serviceIcon1, serviceIcon2, serviceIcon3 } from '../assets/icons';
 
+import { customer1, customer2 } from '../assets/images';
+
 export const navLinks = [
     { href: "/", label: "Home" },
     { href: "/products", label: "Products" },
@@ -62,4 +64,19 @@ export const services = [
         label: "Love to help you",
         subtext: "Our dedicated team is here to assist you every step of the way."
     },
+];
+
+export const reviews = [
+    {
+        imgURL: customer1,
+        customerName: 'Morich Brown',
+        rating: 4.4,
+        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+    },
+    {
+        imgURL: customer2,
+        customerName: 'Lota Mongeskar',
+        rating: 4.7,
+        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    }
 ];
