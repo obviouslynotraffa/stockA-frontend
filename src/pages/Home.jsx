@@ -3,6 +3,7 @@ import BestBrands from "../components/Home/BestBrands"
 import TravisScottSection from "../components/Home/TravisScottSection"
 import Subscribe from "../components/Home/Subscribe"
 import Services from "../components/Home/Services"
+import CustomerReviews from "../components/Home/CustomerReviews"
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <TravisScottSection/>
       <Subscribe/>
       <Services/>
+      <CustomerReviews/>
     </section>
   )
 }
