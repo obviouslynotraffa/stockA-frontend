@@ -5,6 +5,7 @@ import hamburger from './hamburger.svg'
 import serviceIcon1 from './support.svg'
 import serviceIcon2 from './truck-fast.svg'
 import serviceIcon3 from './shield-tick.svg'
+import star from './star.svg'
 
 export{
     blackLogo,
@@ -13,5 +14,6 @@ export{
     hamburger,
     serviceIcon1,
     serviceIcon2,
-    serviceIcon3
+    serviceIcon3,
+    star
 }
