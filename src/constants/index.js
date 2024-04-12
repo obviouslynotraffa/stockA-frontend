@@ -1,9 +1,14 @@
 import { Nike, Jordan, Yeezy, OffWhite } from '../assets/images'
+
 import { DunkTrevis, AirForceTrevis, ReactTrevis } from '../assets/images'
 
 import { serviceIcon1, serviceIcon2, serviceIcon3 } from '../assets/icons';
 
 import { customer1, customer2 } from '../assets/images';
+
+import { facebook, instagram, twitter } from '../assets/icons';
+
+import { applestore, playstore } from '../assets/images';
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -78,5 +83,56 @@ export const reviews = [
         customerName: 'Lota Mongeskar',
         rating: 4.7,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    }
+];
+
+
+export const socials = [
+    {
+        src: facebook,
+        alt: "facebook logo"
+    },
+    {
+        src: twitter,
+        alt: "twitter logo"
+    },
+    {
+        src: instagram,
+        alt: "instagram logo"
+    }
+];
+
+
+export const appStores = [
+    {
+        src: applestore,
+        alt: "Apple Store logo"
+    },
+    {
+        src: playstore,
+        alt: "Play Store logo"
+    }    
+];
+
+export const footerLinks = [
+    {
+        title: "Usefull links",
+        links: [
+            { name: "Coupons", link: "/" },
+            { name: "Blog", link: "/" },
+            { name: "Return policy", link: "/" },
+            { name: "Join affiliate", link: "/" },
+            { name: "Contanct us", link: "/" }
+        ],
+    },
+    {
+        title: "Help",
+        links: [
+            { name: "About us", link: "/" },
+            { name: "FAQs", link: "/" },
+            { name: "How it works", link: "/" },
+            { name: "Privacy policy", link: "/" },
+            { name: "Payment policy", link: "/" },
+        ],
     }
 ];
