@@ -6,6 +6,9 @@ import serviceIcon1 from './support.svg'
 import serviceIcon2 from './truck-fast.svg'
 import serviceIcon3 from './shield-tick.svg'
 import star from './star.svg'
+import instagram from './instagram.svg'
+import twitter from './twitter.svg'
+import facebook from './facebook.svg'
 
 export{
     blackLogo,
@@ -15,5 +18,8 @@ export{
     serviceIcon1,
     serviceIcon2,
     serviceIcon3,
-    star
+    star,
+    instagram,
+    facebook,
+    twitter
 }

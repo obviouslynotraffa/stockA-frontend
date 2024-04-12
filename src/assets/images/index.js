@@ -9,6 +9,8 @@ import AirForceTrevis from './travis-airforce.png'
 import ReactTrevis from './travis-react.png'
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
+import playstore from './playstore.png'
+import applestore from './appstore.png'
 
 export {
     HeroImg,
@@ -21,5 +23,7 @@ export {
     AirForceTrevis,
     ReactTrevis,
     customer1,
-    customer2
+    customer2,
+    playstore,
+    applestore
 }
