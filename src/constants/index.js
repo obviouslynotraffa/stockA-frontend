@@ -2,7 +2,7 @@ import { Nike, Jordan, Yeezy, OffWhite } from '../assets/images'
 
 import { DunkTrevis, AirForceTrevis, ReactTrevis } from '../assets/images'
 
-import { serviceIcon1, serviceIcon2, serviceIcon3 } from '../assets/icons';
+import { supportIcon, shieldTick, truckFast } from '../assets/icons';
 
 import { customer1, customer2 } from '../assets/images';
 
@@ -55,17 +55,17 @@ export const TravisScottSneakers = [
 
 export const services = [
     {
-        imgURL: serviceIcon2,
+        imgURL: truckFast,
         label: "Free shipping",
         subtext: "Enjoy seamless shopping with our complimentary shipping service."
     },
     {
-        imgURL: serviceIcon3,
+        imgURL: shieldTick,
         label: "Secure Payment",
         subtext: "Experience worry-free transactions with our secure payment options."
     },
     {
-        imgURL: serviceIcon1,
+        imgURL: supportIcon,
         label: "Love to help you",
         subtext: "Our dedicated team is here to assist you every step of the way."
     },

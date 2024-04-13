@@ -1,6 +1,6 @@
 import { blackLogo } from '../assets/icons'
 import { navLinks } from '../constants'
-import { hamburger } from '../assets/icons'
+import { hamburgerMenu } from '../assets/icons'
 
 import { Link, useMatch, useResolvedPath  } from 'react-router-dom'
 
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
         </ul>
         <div className='hidden max-lg:block'>
-          <img src={hamburger} alt='hamburger icon' width={25} height={25} />
+          <img src={hamburgerMenu} alt='hamburger icon' width={25} height={25} />
         </div>
       </nav>
     </header>
