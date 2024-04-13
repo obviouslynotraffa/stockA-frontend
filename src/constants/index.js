@@ -1,6 +1,6 @@
 import { Nike, Jordan, Yeezy, OffWhite } from '../assets/images'
 
-import { DunkTrevis, AirForceTrevis, ReactTrevis } from '../assets/images'
+import { NikeSBDunkLowxTS, NikeAirForce1LowxTS, NikeAirMax270ReactxTS } from '../assets/images'
 
 import { supportIcon, shieldTick, truckFast } from '../assets/icons';
 
@@ -20,35 +20,35 @@ export const navLinks = [
 export const BrandImages = [
     {
         src: Nike, 
-        alt: "nike logo",
+        alt: "Nike logo",
     },
     {
         src: Jordan, 
-        alt: "jordan logo",
+        alt: "Jordan logo",
     },
     {
         src: OffWhite,
-        alt: "off-white logo",
+        alt: "Off-white logo",
     },
     {
         src: Yeezy,
-        alt: "yeezy logo",
+        alt: "Yeezy logo",
     },
 ];
 
 
 export const TravisScottSneakers = [
     {
-        src: DunkTrevis,
-        alt: "Travis Scott x Dunk Low"
+        src: NikeSBDunkLowxTS,
+        alt: "Nike SB Dunk Low x Travis Scott"
     },
     {
-        src: AirForceTrevis,
-        alt: "Travis Scott x Air Force One"
+        src: NikeAirForce1LowxTS,
+        alt: "Nike Air Force 1 Low x Travis Scott Cactus Jack"
     },
     {
-        src:ReactTrevis,
-        alt: "Travis x React"
+        src: NikeAirMax270ReactxTS,
+        alt: "Nike Air Max 270 React x Travis Scott Cactus Trails"
     }
 ];
 
@@ -90,15 +90,15 @@ export const reviews = [
 export const socials = [
     {
         src: facebook,
-        alt: "facebook logo"
+        alt: "Facebook logo"
     },
     {
         src: twitter,
-        alt: "twitter logo"
+        alt: "Twitter logo"
     },
     {
         src: instagram,
-        alt: "instagram logo"
+        alt: "Instagram logo"
     }
 ];
 

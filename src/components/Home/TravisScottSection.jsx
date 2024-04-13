@@ -1,4 +1,4 @@
-import { JordanTrevis } from '../../assets/images'
+import { Jordan1RetroHighOGxTS } from '../../assets/images'
 import { TravisScottSneakers } from '../../constants'
 
 
@@ -9,7 +9,7 @@ const TravisScottSection = () => {
         <div className='flex flex-col'>
           <div>
             <img 
-              src={JordanTrevis} 
+              src={Jordan1RetroHighOGxTS} 
               alt="Jordan x Travis Scott Shoes" 
               className='rounded-xl shadow-2xl bg-card bg-center bg-cover'
               width={550}
