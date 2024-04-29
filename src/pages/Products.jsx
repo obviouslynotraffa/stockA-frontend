@@ -1,9 +1,9 @@
-import React from 'react'
+import Banner from "../sections/Products/Banner"
 
 const Products = () => {
   return (
     <section>
-      Products
+      <Banner />
     </section>
   )
 }
