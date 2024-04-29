@@ -27,3 +27,36 @@ export {
     playstore,
     applestore
 }
+
+
+import courtPurpleWhite from './products/air-jordan-1-retro-high-court-purple-white.webp'
+import fearlessOg from './products/air-jordan-1-retro-high-fearless-og.webp'
+import atmosphere from './products/air-jordan-1-retro-high-og-atmosphere.webp'
+import bredPatent from './products/air-jordan-1-retro-high-og-bred-patent.webp'
+import electroOrange from './products/air-jordan-1-retro-high-og-electro-orange.webp'
+import luckyGreen from './products/air-jordan-1-retro-high-og-lucky-green.webp'
+import obsidian from './products/air-jordan-1-retro-high-og-obsidian-university-blue.webp'
+import skyline from './products/air-jordan-1-retro-high-og-skyline.webp'
+import spiderMan from './products/air-jordan-1-retro-high-og-spider-man-across-the-spider-verse.webp'
+import stealth from './products/air-jordan-1-retro-high-og-stealth.webp'
+import uncToe from './products/air-jordan-1-retro-high-og-unc-toe.webp'
+import visionaire from './products/air-jordan-1-retro-high-og-visionaire-.webp'
+import yellowToe from './products/air-jordan-1-retro-high-og-yellow-toe.webp'
+import shatteredBackboard from './products/air-jordan-1-retro-high-shattered-backboard.webp'
+
+export {
+    courtPurpleWhite,
+    fearlessOg,
+    atmosphere, 
+    bredPatent,
+    electroOrange,
+    luckyGreen,
+    obsidian,
+    skyline,
+    spiderMan,
+    stealth,
+    uncToe,
+    visionaire,
+    yellowToe,
+    shatteredBackboard
+}
