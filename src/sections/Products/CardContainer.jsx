@@ -3,9 +3,9 @@ import { PRODUCTS } from "../../constants/products"
 
 const CardContainer = () => {
   return (
-    <section className='padding-x pb-16  max-container'>
-        <div className='w-full max-w-screen-wide m-auto'>
-            <div className='flex flex-row gap-3 justify-center items-center flex-wrap '>
+    <section className='py-16 max-container w-full max-w-screen-wide m-auto padding-x'>
+        <div className=''>
+            <div className='flex flex-row gap-3 justify-center items-center flex-wrap  '>
                 {PRODUCTS.map((product) => (
                     <Card
                         key={product.shoeName}
