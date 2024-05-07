@@ -13,7 +13,13 @@ import {
     uncToe,
     visionaire,
     yellowToe,
-    shatteredBackboard 
+    shatteredBackboard,
+    elephant,
+    lightFusion,
+    handCrafted,
+    silverToe,
+    universityBlue,
+    royalToe
         } from "../assets/images";
 
 
@@ -33,7 +39,7 @@ export const PRODUCTS = [
     {
         imgUrl: atmosphere,
         shoeName: "Air Jordan 1 Retro High OG Atmosphere",
-        price: 350
+        price: 349
     },
     {
         imgUrl: bredPatent,
@@ -43,7 +49,7 @@ export const PRODUCTS = [
     {
         imgUrl: electroOrange,
         shoeName: "Air Jordan 1 Retro High OG Electro Orange",
-        price: 205
+        price: 209
     },
     {
         imgUrl: luckyGreen,
@@ -53,12 +59,12 @@ export const PRODUCTS = [
     {
         imgUrl: obsidian,
         shoeName: "Air Jordan 1 Retro High OG Obsidian UNC 2019",
-        price: 510
+        price: 509
     },
     {
         imgUrl: skyline,
         shoeName: "Air Jordan 1 Retro High OG Skyline",
-        price: 538
+        price: 539
     },
     {
         imgUrl: spiderMan,
@@ -68,7 +74,7 @@ export const PRODUCTS = [
     {
         imgUrl: stealth,
         shoeName: "Air Jordan 1 Retro High OG Stealth",
-        price: 200
+        price: 199
     },
     {
         imgUrl: uncToe,
@@ -89,5 +95,36 @@ export const PRODUCTS = [
         imgUrl: shatteredBackboard,
         shoeName: "Air Jordan 1 Retro High Shattered Backboard 3.0",
         price: 409
+    }
+    ,
+    {
+        imgUrl: elephant,
+        shoeName: "Air Jordan 1 Retro High OG Cement",
+        price: 344
+    },
+    {
+        imgUrl: lightFusion,
+        shoeName: "Air Jordan 1 Retro High Light Fusion Red",
+        price: 299
+    },
+    {
+        imgUrl: handCrafted,
+        shoeName: "Air Jordan 1 Retro High OG Craft",
+        price: 429
+    },
+    {
+        imgUrl: silverToe,
+        shoeName: "Air Jordan 1 Retro High Silver Toe",
+        price: 269
+    },
+    {
+        imgUrl: royalToe,
+        shoeName: "Air Jordan 1 Retro High Royal Toe",
+        price: 229
+    },
+    {
+        imgUrl: universityBlue,
+        shoeName: "Air Jordan 1 Retro High University Blue",
+        price: 349
     }
 ];
