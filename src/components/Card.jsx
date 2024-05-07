@@ -2,7 +2,7 @@
 
 const Card = ({imgURL, shoeName, price}) => {
   return (
-    <div className='w-[160px] md:w-[220px] h-[180px] md:h-[210px] flex flex-col py-4 px-4 hover:underline hover:cursor-pointer'>
+    <div className='w-[160px] md:w-[220px] h-[180px] md:h-[220px] flex flex-col py-4 px-4 hover:underline hover:cursor-pointer'>
         <img 
             src={imgURL}
             alt={shoeName}
