@@ -43,6 +43,12 @@ import uncToe from './products/air-jordan-1-retro-high-og-unc-toe.webp'
 import visionaire from './products/air-jordan-1-retro-high-og-visionaire-.webp'
 import yellowToe from './products/air-jordan-1-retro-high-og-yellow-toe.webp'
 import shatteredBackboard from './products/air-jordan-1-retro-high-shattered-backboard.webp'
+import elephant from './products/air-jordan-1-high-og-elephant.webp'
+import lightFusion from './products/air-jordan-1-retro-high-light-fusion-red.webp'
+import handCrafted from './products/air-jordan-1-retro-high-og-hand-crafted.webp'
+import silverToe from './products/air-jordan-1-retro-high-silver-toe.webp'
+import universityBlue from './products/air-jordan-1-retro-high-white-university-blue.webp'
+import royalToe from './products/air-jordan-1-retro-high-royal-toe.webp'
 
 export {
     courtPurpleWhite,
@@ -58,5 +64,11 @@ export {
     uncToe,
     visionaire,
     yellowToe,
-    shatteredBackboard
+    shatteredBackboard,
+    elephant,
+    lightFusion,
+    handCrafted,
+    silverToe,
+    universityBlue,
+    royalToe
 }
