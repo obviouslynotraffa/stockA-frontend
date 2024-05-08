@@ -9,6 +9,9 @@ import star from './utils/star.svg'
 import instagram from './socials/instagram-icon.svg'
 import twitter from './socials/twitter-icon.svg'
 import facebook from './socials/facebook-icon.svg'
+import poi from './utils/poi.svg'
+import liveChat from './utils/live-chat.svg'
+import phone from './utils/call-ringing.svg'
 
 export{
     blackLogo,
@@ -21,5 +24,8 @@ export{
     star,
     instagram,
     facebook,
-    twitter
+    twitter,
+    poi,
+    liveChat,
+    phone
 }
