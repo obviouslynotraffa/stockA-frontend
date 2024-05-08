@@ -1,9 +1,9 @@
-import React from 'react'
+import GetInTouch from "../sections/Contact/GetInTouch"
 
 const Contact = () => {
   return (
     <section>
-      Contact
+     <GetInTouch /> 
     </section>
   )
 }
