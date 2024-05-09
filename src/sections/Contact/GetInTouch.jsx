@@ -8,7 +8,7 @@ const GetInTouch = () => {
                 Get In Touch
             </h1>
             <div className='flex flex-row justify-around py-10 flex-wrap gap-5 max-sm:gap-10'>
-                <div className='w-[400px] max-lg:w-[80%] max-sm:w-full max-md:w-[90%] flex flex-col'>
+                <div className='w-[500px] max-lg:w-[80%] max-sm:w-full max-md:w-[90%] flex flex-col'>
                     <div className="flex flex-col justify-start">
                         <h3 className="font-bold font-palanquin text-xl">
                             Send Message
