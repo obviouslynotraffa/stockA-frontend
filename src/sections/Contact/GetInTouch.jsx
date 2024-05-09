@@ -4,11 +4,11 @@ const GetInTouch = () => {
   return (
     <section className='w-full py-10 padding-x max-w-screen-wide max-container '>
         <div className='flex flex-col'>
-            <h1 className='w-full font-montserrat text-4xl font-bold'>
+            <h1 className='w-full font-montserrat text-4xl font-bold '>
                 Get In Touch
             </h1>
-            <div className='flex flex-row justify-evenly py-10'>
-                <div className='w-[500px] flex flex-col'>
+            <div className='flex flex-row justify-around py-10 flex-wrap gap-5 max-sm:gap-10'>
+                <div className='w-[400px] max-lg:w-[80%] max-sm:w-full max-md:w-[90%] flex flex-col'>
                     <div className="flex flex-col justify-start">
                         <h3 className="font-bold font-palanquin text-xl">
                             Send Message
@@ -88,7 +88,7 @@ const GetInTouch = () => {
                     </form>
                 </div>
 
-                <div className='w-[400px] flex flex-col gap-14'>
+                <div className='w-[400px] max-lg:w-[80%] flex flex-col gap-14'>
         
                     {ContactInfo.map((section) =>(
                         <div key={section.title} className="flex flex-col">
@@ -102,7 +102,8 @@ const GetInTouch = () => {
                                 <img 
                                     src={section.icon}
                                     alt={section.title}
-                                    className="bg-flag-color rounded-full w-[40px] h-[40px] object-fill p-1"
+                                    width={32}
+                                    height={32}
                                 />
                                 <span className="w-full hover:underline hover:cursor-pointer">
                                     {section.details}
