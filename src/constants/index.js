@@ -158,3 +158,22 @@ export const ContactInfo = [
         icon: liveChat
     }
 ];
+
+export const FAQData = [
+    {
+        question: "What is your return policy?",
+        answer: "Our return policy for limited edition shoes is designed to ensure customer satisfaction while also considering the exclusivity of these items. Generally, we offer a 45 days return window from the date of delivery for unworn and undamaged shoes, accompanied by their original packaging. However, due to the limited availability of these items, exchanges may not always be possible, and refunds will be issued in accordance with our standard return policy. Please refer to our website or contact our customer service team for specific details and instructions on returning limited edition shoes."
+    },
+    {
+        question: "How can I cancel my order?",
+        answer: "If you wish to cancel your order, please contact our customer service team as soon as possible with your order details. We'll do our best to accommodate your request, but please note that orders can only be canceled before they are shipped."
+    },
+    {
+        question: "When can I expect to receive my item?",
+        answer: "The shipping time for our limited edition shoes varies depending on the destination and the shipping method selected at checkout. Typically, orders are processed and shipped within 1-3 business days. Once shipped, domestic delivery usually takes 3-7 business days, while international delivery may take longer. Customers will receive a tracking number via email to monitor the status of their shipment."
+    },
+    {
+        question: "What payment methods do you accept?",
+        answer: "We accept various payment methods to make purchasing our products convenient for our customers. These methods typically include credit/debit cards, PayPal, and sometimes alternative payment options like Apple Pay or Google Pay. At checkout, you'll be able to select your preferred payment method and securely complete your transaction."
+    }
+];
