@@ -10,6 +10,8 @@ import { facebook, instagram, twitter } from '../assets/icons';
 
 import { applestore, playstore } from '../assets/images';
 
+import { scottScutler,  andyLisk, terraCarmichael, gregSwarth, lauraLewis,  seanMccarteny, deenaBahri, stephenWinn   } from '../assets/images';
+
 export const navLinks = [
     { href: "/", label: "Home" },
     { href: "/products", label: "Products" },
@@ -175,5 +177,49 @@ export const FAQData = [
     {
         question: "What payment methods do you accept?",
         answer: "We accept various payment methods to make purchasing our products convenient for our customers. These methods typically include credit/debit cards, PayPal, and sometimes alternative payment options like Apple Pay or Google Pay. At checkout, you'll be able to select your preferred payment method and securely complete your transaction."
+    }
+];
+
+
+export const ManagementData = [
+    {
+        imgURL: scottScutler,
+        name: "Scott Cutler",
+        title: "CHIEF EXECUTIVE OFFICER"
+    },
+    {
+        imgURL: gregSwarth,
+        name: "Greg Swarth",
+        title: "CHIEF OPERATING OFFICER"
+    },
+    {
+        imgURL: deenaBahri,
+        name: "Deena Bahri",
+        title: "CHIEF MARKETING OFFICER"
+    },
+    {
+        imgURL: terraCarmichael,
+        name: "Terra Carmichael",
+        title: "CHIEF COMMUNICATIONS OFFICER"
+    },
+    {
+        imgURL: lauraLewis,
+        name: "Laura Lewis",
+        title: "CHIEF ADMINISTRATIVE OFFICER"
+    },
+    {
+        imgURL: andyLisk,
+        name: "Andy Lisk",
+        title: "CHIEF SUPPLY CHAIN OFFICER"
+    },
+    {
+        imgURL: seanMccarteny,
+        name: "Sean McCarteny",
+        title: "CHIEF PRODUCT OFFICER"
+    },
+    {
+        imgURL: stephenWinn,
+        name: "Stephen Winn",
+        title: "CHIEF TECHNOLOGY OFFICER"
     }
 ];
