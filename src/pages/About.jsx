@@ -1,9 +1,12 @@
-import React from 'react'
+import AboutBanner from "../sections/About/AboutBanner"
 
 const About = () => {
   return (
     <section>
-      About Us
+      <AboutBanner />
+      <div className="py-5">
+        s
+      </div>
     </section>
   )
 }
