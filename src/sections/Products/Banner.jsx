@@ -35,9 +35,9 @@ const Banner = () => {
                     xmlns="http://www.w3.org/2000/svg" 
                     aria-labelledby="soundsIconTitle" 
                     stroke="#000000" 
-                    stroke-width="2" 
-                    stroke-linecap="round" 
-                    stroke-linejoin="round" 
+                    strokeWidth="2" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
                     color="#000000"
                   > 
                     <title id="soundsIconTitle">Listen to the American English pronunciation</title> 
