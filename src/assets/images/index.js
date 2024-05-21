@@ -11,6 +11,14 @@ import customer1 from './utils/customer1.jpeg'
 import customer2 from './utils/customer2.svg'
 import playstore from './app-store/play-store.png'
 import applestore from './app-store/apple-store.png'
+import andyLisk from './utils/andyLisk.jpg'
+import gregSwarth from './utils/gregSchwartz.jpg'
+import lauraLewis from './utils/lauraLewis.jpg'
+import scottScutler from './utils/scottCutler.jpg'
+import seanMccarteny from './utils/seanMcCartney.jpg'
+import stephenWinn from './utils/stephenWinn.jpg'
+import deenaBahri from './utils/deenaBahri.jpg'
+import terraCarmichael from './utils/terraCarmichael.jpg'
 
 export {
     HeroImg,
@@ -25,7 +33,15 @@ export {
     customer1,
     customer2,
     playstore,
-    applestore
+    applestore,
+    andyLisk,
+    gregSwarth,
+    lauraLewis,
+    scottScutler,
+    seanMccarteny,
+    stephenWinn,
+    terraCarmichael,
+    deenaBahri
 }
 
 
