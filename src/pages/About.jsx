@@ -1,12 +1,11 @@
 import AboutBanner from "../sections/About/AboutBanner"
+import { Management } from "../sections/About/Management"
 
 const About = () => {
   return (
     <section>
       <AboutBanner />
-      <div className="py-5">
-        s
-      </div>
+      <Management />
     </section>
   )
 }
