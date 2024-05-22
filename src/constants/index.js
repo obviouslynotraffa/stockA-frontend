@@ -223,3 +223,27 @@ export const ManagementData = [
         title: "CHIEF TECHNOLOGY OFFICER"
     }
 ];
+
+export const KeyNumbersData = [
+    {
+        number: 150,
+        additional: "K+",
+        desc: "Product catalog with hundreds of brands"
+    },
+    {
+        number: 25,
+        additional: "M",
+        desc: "Average Monthly Visitors"
+    },
+    {
+        number: 1,
+        additional: "K+",
+        desc: "StockA Team Members"
+    },
+    {
+        number: 10,
+        additional: "",
+        desc: "Authentication Centers"
+    }
+];
+    
