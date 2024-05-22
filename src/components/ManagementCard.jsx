@@ -2,7 +2,7 @@
 
 const ManagementCard = ({imgURL, name, title}) => {
   return (
-    <div className='flex flex-col max-w-[300px] group hover:cursor-pointer'>
+    <div className='flex flex-col max-w-[250px] group hover:cursor-pointer'>
                 <img 
                     src={imgURL} 
                     alt={name}

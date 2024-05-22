@@ -7,7 +7,7 @@ export const Management = () => {
         <h2 className='font-bold font-palanquin text-4xl'>
             Management
         </h2>
-        <div className='flex flex-row flex-wrap gap-5 justify-center'>
+        <div className='flex flex-row flex-wrap gap-10 md:gap-5 justify-center'>
             {ManagementData.map((item, index) => {
                 return (
                     <ManagementCard 
