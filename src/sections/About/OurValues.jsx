@@ -22,7 +22,7 @@ const OurValues = () => {
                                 {value.title}
                             </h5>
 
-                            <p className="font-palanquin text-xl">
+                            <p className="font-palanquin text-xl text-gray-800">
                                 {value.desc}
                             </p>
                         </div>
