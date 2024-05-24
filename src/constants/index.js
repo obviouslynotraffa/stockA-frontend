@@ -1,16 +1,12 @@
 import { Nike, Jordan, Yeezy, OffWhite } from '../assets/images'
-
 import { NikeSBDunkLowxTS, NikeAirForce1LowxTS, NikeAirMax270ReactxTS } from '../assets/images'
-
 import { supportIcon, shieldTick, truckFast, poi, liveChat, phone } from '../assets/icons';
-
 import { customer1, customer2 } from '../assets/images';
-
 import { facebook, instagram, twitter } from '../assets/icons';
-
 import { applestore, playstore } from '../assets/images';
-
 import { scottScutler,  andyLisk, terraCarmichael, gregSwarth, lauraLewis,  seanMccarteny, deenaBahri, stephenWinn   } from '../assets/images';
+import { hands, mountain, rocket, trophy, verified } from '../assets/icons';
+
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -247,3 +243,31 @@ export const KeyNumbersData = [
     }
 ];
     
+
+export const OurValuesData = [
+    {
+        imgURL: verified,
+        title: "Committed to What is Right",
+        desc: "We believe in the power of truth, authenticity, and transparency. We do the right thing and we do it the right way."
+    },
+    {
+        imgURL: trophy,
+        title: "Champions for Our Customers",
+        desc: "We always listen and learn to ensure our customers experience the quality they deserve every day."
+    },
+    {
+        imgURL: hands,
+        title: "Playing on the Dream Team",
+        desc: "Our team is united by our vision, commitment to each other, and the joy of sharing this journey together. We play to win and we do it while having fun."
+    },
+    {
+        imgURL: rocket,
+        title: "Hungry for the Future",
+        desc: "We are committed to learning, growing, and innovating. We push against the status quo and are not afraid to make mistakes."
+    },
+    {
+        imgURL: mountain,
+        title: "Building a Dynasty",
+        desc: "We continuously build a better product, a better workplace, and a better world. We will keep raising the bar, changing the game, and ensuring that what we do is never forgotten."
+    }
+];

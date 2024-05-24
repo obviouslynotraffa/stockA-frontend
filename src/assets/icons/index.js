@@ -12,6 +12,11 @@ import facebook from './socials/facebook-icon.svg'
 import poi from './utils/poi.svg'
 import liveChat from './utils/live-chat.svg'
 import phone from './utils/call-ringing.svg'
+import hands from './about/hands.png'
+import mountain from './about/mountain.png'
+import rocket from './about/rocket.png'
+import trophy from './about/trophy.png'
+import verified from './about/verified.png'
 
 export{
     blackLogo,
@@ -27,5 +32,10 @@ export{
     twitter,
     poi,
     liveChat,
-    phone
+    phone,
+    hands,
+    mountain,
+    rocket,
+    trophy,
+    verified
 }
