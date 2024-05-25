@@ -6,7 +6,7 @@ import { facebook, instagram, twitter } from '../assets/icons';
 import { applestore, playstore } from '../assets/images';
 import { scottScutler,  andyLisk, terraCarmichael, gregSwarth, lauraLewis,  seanMccarteny, deenaBahri, stephenWinn   } from '../assets/images';
 import { hands, mountain, rocket, trophy, verified } from '../assets/icons';
-
+import { Art, Change, Playworks, Sostenibility, Student } from '../assets/images';
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -269,5 +269,34 @@ export const OurValuesData = [
         imgURL: mountain,
         title: "Building a Dynasty",
         desc: "We continuously build a better product, a better workplace, and a better world. We will keep raising the bar, changing the game, and ensuring that what we do is never forgotten."
+    }
+];
+
+
+export const CommunityData = [
+    {
+        imgURL : Art,
+        title : "Art & Culture",
+        text : "StockA is inherently connected to the artistic community. The worlds of sneakers and streetwear, in particular, have roots that trace back to some of the most famous street artists, graffiti writers and designers. The company supports organizations that aim to introduce young people to the arts and culture through initiatives"
+    },
+    {
+        imgURL: Playworks,
+        title: "Youth & Recreation",
+        text: "The company supports initiatives designed to engage young people in recreational activities that align with the products traded on StockA, including skateboarding schools, basketball camps, and other activities designed to connect kids to sports and educational programming."
+    },
+    {
+        imgURL: Sostenibility,
+        title: "Sustainability",
+        text: "StockA is committed to investing in sustainable practices within its business operations and externally through its support of campaigns, initiatives, and philanthropic associations such as Oceana, an organization dedicated to protecting and restoring the world’s oceans."
+    },
+    {
+        imgURL: Student,
+        title: "Tech Education",
+        text: "StockA collaborates with organizations that engage young people in STEAM initiatives and the development of related technical skills to encourage a future in applied contexts, with a specific focus on minorities and disadvantaged students. Diversity in technology is painfully lacking, and StockA aims to play a role in ensuring the industry is representative."
+    },
+    {
+        imgURL: Change,
+        title: "Social Justice",
+        text: "StockA promotes a diverse and inclusive community, not only for its team members but for the millions of buyers, sellers, manufacturers, and creators it serves.  In 2020, StockA matched team member donations to organizations like the George Floyd Memorial Fund, the NAACP Legal Defense Fund, and Know Your Rights Camp, totaling over $100,000 in support of their work."
     }
 ];

@@ -19,6 +19,11 @@ import seanMccarteny from './utils/seanMcCartney.jpg'
 import stephenWinn from './utils/stephenWinn.jpg'
 import deenaBahri from './utils/deenaBahri.jpg'
 import terraCarmichael from './utils/terraCarmichael.jpg'
+import Art from './utils/Art.png'
+import Change from './utils/Change.png'
+import Playworks from './utils/Playworks.png'
+import Sostenibility from './utils/Sostenibility.png'
+import Student from './utils/Student.png'
 
 export {
     HeroImg,
@@ -41,7 +46,12 @@ export {
     seanMccarteny,
     stephenWinn,
     terraCarmichael,
-    deenaBahri
+    deenaBahri,
+    Art,
+    Change,
+    Playworks,
+    Sostenibility,
+    Student
 }
 
 
