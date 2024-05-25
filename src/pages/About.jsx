@@ -2,6 +2,7 @@ import AboutBanner from "../sections/About/AboutBanner"
 import {Management} from "../sections/About/Management"
 import KeyNumbers from "../sections/About/KeyNumbers"
 import OurValues from "../sections/About/OurValues"
+import Community from "../sections/About/Community"
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
       <Management />
       <KeyNumbers />
       <OurValues />
+      <Community />
     </section>
   )
 }
