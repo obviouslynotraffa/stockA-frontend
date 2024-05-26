@@ -1,62 +1,87 @@
-import { blackLogo } from '../assets/icons'
-import { navLinks } from '../constants'
-import { hamburgerMenu } from '../assets/icons'
-
-import { Link, useMatch, useResolvedPath  } from 'react-router-dom'
+import { useState } from 'react';
+import { blackLogo, hamburgerMenu, closeMenu } from '../assets/icons';
+import { navLinks } from '../constants';
+import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className='padding-x py-8 z-10 w-full max-w-screen-wide m-auto max-lg:border-b-2 max-lg:border-black max-lg:sticky max-lg:top-0 bg-white'>
       <nav className='flex justify-between items-center max-container'>
-          <img
-            src={blackLogo}
-            alt='logo'
-            width={129}
-            height={29}
-            className='m-0 w-[129px] h-[29px] mr-16'
-          />
-        <ul className='flex-1 flex flex-start items-center gap-16 max-lg:hidden font-medium text-lg font-montserrat '>
+        <img
+          src={blackLogo}
+          alt='logo'
+          width={129}
+          height={29}
+          className='m-0 w-[129px] h-[29px] mr-16'
+        />
+        <ul className='flex-1 flex flex-start items-center gap-16 max-lg:hidden font-medium text-lg font-montserrat'>
           {navLinks.map((item) => (
             <CustomLink
-              to={item.href} 
-              key={item.label} 
+              to={item.href}
+              key={item.label}
             >
               {item.label}
             </CustomLink>
           ))}
-          <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24 ml-auto' >
-          Sign in
-        </div>
+          <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24 ml-auto'>
+            Sign in
+          </div>
         </ul>
         <div className='hidden max-lg:block'>
-          <img 
-              src={hamburgerMenu} 
-              alt='hamburger icon' 
-              width={42} 
-              height={42} 
-          />
+          <button onClick={toggleMenu}>
+            <img
+              src={menuOpen ? closeMenu : hamburgerMenu}
+              alt='menu icon'
+              width={42}
+              height={42}
+            />
+          </button>
         </div>
       </nav>
+      {menuOpen && (
+        <div className='bg-black text-white p-4 absolute top-[114px] right-0 w-full h-[360px] flex flex-col items-start z-50'>
+          <ul className='flex flex-col items-start gap-10 pt-5 w-full'>
+            {navLinks.map((item) => (
+              <CustomLink
+                to={item.href}
+                key={item.label}
+                onClick={() => setMenuOpen(false)}
+                className="text-lg leading-normal font-medium font-montserrat"
+              >
+                {item.label}
+              </CustomLink>
+            ))}
+            <div className='text-lg leading-normal font-medium font-montserrat'>
+              <button onClick={() => setMenuOpen(false)}>Sign in</button>
+            </div>
+          </ul>
+        </div>
+      )}
     </header>
-  )
-}
-
+  );
+};
 
 function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to)
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
   return (
-    <li className={isActive ? 'border-b-2 border-flag-color' : "hover:text-gray-500"}>
-      {isActive ?
-          <p>{children}</p>
-        :
-          <Link to={to} {...props}>
-            {children}
-          </Link>
-      }
+    <li className={isActive ? 'border-b-2 text-lg leading-normal font-medium font-montserrat border-flag-color' : "hover:text-gray-500"}>
+      {isActive ? (
+        <p>{children}</p>
+      ) : (
+        <Link to={to} {...props}>
+          {children}
+        </Link>
+      )}
     </li>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
