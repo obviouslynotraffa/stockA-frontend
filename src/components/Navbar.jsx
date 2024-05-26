@@ -6,8 +6,8 @@ import { Link, useMatch, useResolvedPath  } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <header className='padding-x py-8 z-10 w-full max-w-screen-wide m-auto'>
-      <nav className='flex justify-between items-center max-container '>
+    <header className='padding-x py-8 z-10 w-full max-w-screen-wide m-auto max-lg:border-b-2 max-lg:border-black max-lg:sticky max-lg:top-0 bg-white'>
+      <nav className='flex justify-between items-center max-container'>
           <img
             src={blackLogo}
             alt='logo'
@@ -29,7 +29,12 @@ const Navbar = () => {
         </div>
         </ul>
         <div className='hidden max-lg:block'>
-          <img src={hamburgerMenu} alt='hamburger icon' width={25} height={25} />
+          <img 
+              src={hamburgerMenu} 
+              alt='hamburger icon' 
+              width={42} 
+              height={42} 
+          />
         </div>
       </nav>
     </header>
