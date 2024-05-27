@@ -21,7 +21,7 @@ const Breadcrumb = ({shoeName}) => {
 
         <span> / </span>
 
-        <span className='text-gray-600'>
+        <span className='text-gray-600 text-center'>
             {shoeName}
         </span>
     </nav>
