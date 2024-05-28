@@ -18,6 +18,11 @@ import mountain from './about/mountain.png'
 import rocket from './about/rocket.png'
 import trophy from './about/trophy.png'
 import verified from './about/verified.png'
+import flag from './utils/flag.svg'
+import authenticity from './utils/authenticity.svg'
+import shipping from './utils/shipping.svg'
+import undo from './utils/undo.svg'
+
 
 export{
     blackLogo,
@@ -39,5 +44,9 @@ export{
     mountain,
     rocket,
     trophy,
-    verified
+    verified,
+    flag,
+    authenticity,
+    shipping,
+    undo
 }
