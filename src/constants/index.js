@@ -7,6 +7,7 @@ import { applestore, playstore } from '../assets/images';
 import { scottScutler,  andyLisk, terraCarmichael, gregSwarth, lauraLewis,  seanMccarteny, deenaBahri, stephenWinn   } from '../assets/images';
 import { hands, mountain, rocket, trophy, verified } from '../assets/icons';
 import { Art, Change, Playworks, Sostenibility, Student } from '../assets/images';
+import {undo, authenticity, shipping} from '../assets/icons';
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -298,5 +299,36 @@ export const CommunityData = [
         imgURL: Change,
         title: "Social Justice",
         text: "StockA promotes a diverse and inclusive community, not only for its team members but for the millions of buyers, sellers, manufacturers, and creators it serves.  In 2020, StockA matched team member donations to organizations like the George Floyd Memorial Fund, the NAACP Legal Defense Fund, and Know Your Rights Camp, totaling over $100,000 in support of their work."
+    }
+];
+
+
+export const GoodToKnowData = [
+    {
+        imgURL: authenticity,
+        title: "AUTHENTICITY",
+        subt1:"",
+        subt2:"",
+        text1: "All products are 100% authentic and brand new.",
+        text2: "We do not sell nor support the sale of fake products. All our products are authenticated and thoroughly checked before they're shipped out.",
+        text3: ""
+    },
+    {
+        imgURL: shipping,
+        title: "SHIPPING",
+        subt1:"",
+        subt2:"",
+        text1: "We always aim to ship out your order as soon as possible. However, we are a small team taking care over hundreds of orders. Please check the estimated shipping times before ordering to avoid disappointment.",
+        text2: "You can check the estimated shipping time in the 'Shipping Information' tab (above the Add To Cart button).",
+        text3: "Please read our full shipping policy."
+    },
+    {
+        imgURL: undo,
+        title: "CANCELLATIONS & RETURNS",
+        subt1:"Cancellations",
+        subt2:"Returns",
+        text1: "Unfortunately you can not cancel your order once it's placed. However, if we have not fulfilled your order yet, you may request a different size/color or model. We will charge a transaction fee if we have to cancel your order.",
+        text2: "We have 14-day return policy and all products are eligible for returns. You can only request a return if the product is still unworn and brand new.",
+        text3: "Please read our full refund policy before requesting a return."
     }
 ];
