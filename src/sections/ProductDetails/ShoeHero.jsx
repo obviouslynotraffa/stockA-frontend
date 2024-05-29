@@ -6,7 +6,7 @@ const ShoeHero = ({product}) => {
         <img 
             src={product.imgUrl}
             alt={product.shoeName} 
-            className='md:w-1/2 md:h-1/2 w-[85%] object-cover '
+            className='md:w-1/2 md:h-1/2 w-[90%] object-cover '
         />
 
         <div className='flex flex-col gap-5 flex-wrap w-[85%] md:w-1/2 justify-center'>
