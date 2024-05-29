@@ -3,7 +3,7 @@ import { GoodToKnowData } from "../constants"
 
 const GoodToKnow = () => {
   return (
-    <section className="py-16 flex flex-col gap-10 w-full">
+    <section className="flex flex-col gap-10 w-full">
         <h3 className='flex flex-row items-center gap-2'>
             <span className="text-3xl font-bold">
                 GOOD TO KNOW
