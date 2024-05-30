@@ -15,7 +15,7 @@ const SizeSection = () => {
   };
 
   return (
-    <section className='flex flex-col w-[90%] lg:w-[45%] gap-10 sticky top-0'>
+    <section className='flex flex-col w-[90%] lg:w-[45%] gap-10'>
       <p className='font-montserrat text-2xl'>
         Select Size
       </p>

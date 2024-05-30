@@ -3,6 +3,7 @@ import ShoeDescription from "./ShoeDescription"
 import ShoeHero from "./ShoeHero"
 import SmallInfo from "./SmallInfo"
 import SizeSection from "./SizeSection"
+import RelatedProducts from "./RelatedProducts"
 
 const ShoeDetails = ({product}) => {
   return (
@@ -19,7 +20,9 @@ const ShoeDetails = ({product}) => {
               />
           </div>
           <SizeSection />
-        </div>     
+        </div>
+
+        <RelatedProducts product={product} />
     </section>
   )
 }
