@@ -7,14 +7,14 @@ import CustomerReviews from "../sections/Home/CustomerReviews"
 
 const Home = () => {
   return (
-    <section className="max-container">
+    <main className="max-container">
       <Hero />
       <BestBrands />
       <TravisScottSection/>
       <Subscribe/>
       <Services/>
       <CustomerReviews/>
-    </section>
+    </main>
   )
 }
 
