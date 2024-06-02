@@ -5,8 +5,8 @@ const Hero = () => {
     return (
         <section className='bg-gradient-to-b from-white to-gray-300'>
           <div className='padding-x pb-8 w-full max-w-screen-wide m-auto'>
-            <div className='flex md:flex-row flex-col justify-between items-center md:px-5 pb-10 '>
-              <div className='flex py-5 flex-col justify-center md:w-[50%] pb-20 md:pb-0'>
+            <div className='flex lg:flex-row flex-col justify-evenly items-center md:px-5 pb-10 gap-5 lg:gap-0 '>
+              <div className='flex py-5 flex-col justify-center lg:w-[50%] w-[90%] pb-20 md:pb-0'>
 
                 <p className='text-slate-gray text-2xl leading-6'>
                   Don't miss the most recent release!
@@ -36,7 +36,7 @@ const Hero = () => {
               <img 
                 src={HeroImg} 
                 alt=""
-                className='md:rounded-full xl:w-[550px] md:w-[50%] rounded-xl '
+                className='w-[70%] lg:w-[35%] object-cover md:object-contain rounded-lg md:shadow-2xl'
               />
 
             </div>
