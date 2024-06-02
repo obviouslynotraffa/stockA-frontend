@@ -4,7 +4,7 @@ import { footerLinks } from "../constants"
 
 const Footer = () => {
   return (
-    <section className="w-full py-8 max-container bg-black">
+    <footer className="w-full py-8 max-container bg-black">
         <div className="padding-x text-white max-w-screen-wide m-auto flex flex-col pt-3">
             <div className="flex flex-row flex-wrap gap-5 justify-between max-md:justify-center items-start pb-8 ">
                 <div className="flex flex-col items-start gap-5 w-[275px] max-sm:items-center max-sm:text-center">
@@ -74,7 +74,7 @@ const Footer = () => {
                 Copyright 2024 - StockA
             </div>
         </div>
-    </section>
+    </footer>
   )
 }
 
