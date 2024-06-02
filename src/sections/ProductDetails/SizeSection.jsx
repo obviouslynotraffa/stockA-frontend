@@ -32,12 +32,12 @@ const SizeSection = () => {
       <p className='text-lg font-montserrat text-gray-800'>
       There are 2 products left
       </p>
-      <div className='flex flex-row justify-around items-center gap-5'>
-        <button className='border-2 border-black text-xl py-4 px-8 w-[45%] font-semibold hover:bg-gray-200'>
+      <div className='flex flex-row justify-around items-center gap-5 max-sm:flex-col'>
+        <button className='border-2 border-black text-xl py-4 px-8 w-[45%] max-sm:w-[90%] font-semibold hover:bg-gray-200'>
             ADD TO CART
         </button>
 
-        <button className='text-lg py-5 px-8 w-[45%] bg-yellow-400 text-gray-800 font-palanquin hover:bg-yellow-500'>
+        <button className='text-lg py-5 px-8 w-[45%] max-sm:w-[90%] bg-yellow-400 text-gray-800 font-palanquin hover:bg-yellow-500'>
             Buy with 
             <span className='text-blue-800 pl-1 font-bold font-sans text-xl italic'>
                 Pay
