@@ -1,4 +1,4 @@
-import HeroImg from './utils/HeroImg.jpeg'
+import HeroImg from './utils/HeroImg.png'
 import Jordan from './sneakers-brand/jordan-logo.png'
 import Nike from './sneakers-brand/nike-logo.png'
 import OffWhite from './sneakers-brand/offwhite-logo.png'
