@@ -3,10 +3,10 @@ import CardContainer from "../sections/Products/CardContainer"
 
 const Products = () => {
   return (
-    <section>
+    <main>
       <Banner />
       <CardContainer />
-    </section>
+    </main>
   )
 }
 

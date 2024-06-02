@@ -6,13 +6,13 @@ import Community from "../sections/About/Community"
 
 const About = () => {
   return (
-    <section>
+    <main>
       <AboutBanner />
       <Management />
       <KeyNumbers />
       <OurValues />
       <Community />
-    </section>
+    </main>
   )
 }
 

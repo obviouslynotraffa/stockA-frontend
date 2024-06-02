@@ -4,11 +4,11 @@ import FAQ from "../sections/Contact/FAQ"
 
 const Contact = () => {
   return (
-    <section>
+    <main>
       <GetInTouch /> 
       <Map />
       <FAQ />
-    </section>
+    </main>
   )
 }
 

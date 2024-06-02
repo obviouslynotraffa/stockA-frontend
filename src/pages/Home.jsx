@@ -7,7 +7,7 @@ import CustomerReviews from "../sections/Home/CustomerReviews"
 
 const Home = () => {
   return (
-    <main className="max-container">
+    <main>
       <Hero />
       <BestBrands />
       <TravisScottSection/>
