@@ -35,6 +35,10 @@ export default {
       backgroundImage: {
         'card': "url('assets/images/utils/thumbnail-background.svg')",
         'hero': "url('assets/images/utils/HeroImg.png')",
+        'hamburger-menu': "url('assets/icons/utils/hamburger-menu.svg')",
+        'close-menu': "url('assets/icons/utils/close-menu.svg')",
+        'black-logo': "url('assets/icons/branding/black-logo-company.png')",
+        'white-logo': "url('assets/icons/branding/white-logo-company.png')"
       },
       screens: {
         "wide": "1440px"

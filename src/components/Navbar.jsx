@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { blackLogo, hamburgerMenu, closeMenu } from '../assets/icons';
 import { navLinks } from '../constants';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
@@ -13,13 +12,11 @@ const Navbar = () => {
   return (
     <header className='padding-x py-8 z-10 w-full max-w-screen-wide m-auto max-lg:border-b-2 max-lg:border-black max-lg:sticky max-lg:top-0 bg-white'>
       <nav className='flex justify-between items-center max-container'>
-        <img
-          src={blackLogo}
-          alt='logo'
-          width={129}
-          height={29}
-          className='m-0 w-[129px] h-[29px] mr-16'
-        />
+        <div className='m-0 w-[129px] h-[29px] mr-16 bg-black-logo bg-contain bg-center bg-no-repeat'>
+          <h1 className='sr-only'>
+            StockA
+          </h1>
+        </div>
         <ul className='flex-1 flex flex-start items-center gap-16 max-lg:hidden font-medium text-lg font-montserrat'>
           {navLinks.map((item) => (
             <CustomLink
@@ -29,23 +26,23 @@ const Navbar = () => {
               {item.label}
             </CustomLink>
           ))}
-          <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24 ml-auto'>
+          <li className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24 ml-auto'>
             Sign in
-          </div>
+          </li>
         </ul>
         <div className='hidden max-lg:block'>
-          <button onClick={toggleMenu}>
-            <img
-              src={menuOpen ? closeMenu : hamburgerMenu}
-              alt='menu icon'
-              width={42}
-              height={42}
-            />
+          <button 
+            onClick={toggleMenu}
+            className={menuOpen ? "bg-close-menu bg-contain bg-center bg-no-repeat w-[42px] h-[42px]" : "bg-hamburger-menu bg-contain bg-center bg-no-repeat w-[42px] h-[42px]"}
+          >
+            <span className='sr-only'>
+              Toggle Menu
+            </span>
           </button>
         </div>
       </nav>
       {menuOpen && (
-        <div className='bg-black text-white p-4 absolute top-[113px] right-0 w-full h-[360px] flex flex-col items-start z-50'>
+        <div className='bg-black text-white p-4 absolute top-[108px] right-0 w-full h-[360px] flex flex-col items-start z-50 lg:hidden'>
           <ul className='flex flex-col items-start gap-10 pt-5 w-full'>
             {navLinks.map((item) => (
               <CustomLink
@@ -57,9 +54,11 @@ const Navbar = () => {
                 {item.label}
               </CustomLink>
             ))}
-            <div className='text-lg leading-normal font-medium font-montserrat'>
-              <button onClick={() => setMenuOpen(false)}>Sign in</button>
-            </div>
+            <li className='text-lg leading-normal font-medium font-montserrat'>
+              <button onClick={() => setMenuOpen(false)}>
+                Sign in
+              </button>
+            </li>
           </ul>
         </div>
       )}
