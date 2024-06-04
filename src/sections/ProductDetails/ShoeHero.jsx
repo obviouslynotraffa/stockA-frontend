@@ -10,9 +10,9 @@ const ShoeHero = ({product}) => {
         />
 
         <div className='flex flex-col gap-5 flex-wrap w-[85%] md:w-1/2 justify-center'>
-            <h1 className='font-bold font-montserrat text-4xl max-sm:text-3xl max-sm:font-extrabold'>
+            <h2 className='font-bold font-montserrat text-4xl max-sm:text-3xl max-sm:font-extrabold'>
                 {product.shoeName}
-            </h1>
+            </h2>
             <p className='font-bold font-montserrat text-3xl'>
                 € {product.price}.99
             </p>

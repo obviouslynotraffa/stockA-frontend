@@ -13,7 +13,7 @@ const ProductDetails = () => {
   if (!product) {
       return <h1>404 page placeholder</h1>
   }
-product.
+
   return (
     <>
       <Helmet>

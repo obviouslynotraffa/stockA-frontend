@@ -305,7 +305,7 @@ export const CommunityData = [
 
 export const GoodToKnowData = [
     {
-        imgURL: authenticity,
+        imgURL: "bg-authenticity",
         title: "AUTHENTICITY",
         subt1:"",
         subt2:"",
@@ -314,7 +314,7 @@ export const GoodToKnowData = [
         text3: ""
     },
     {
-        imgURL: shipping,
+        imgURL: "bg-shipping",
         title: "SHIPPING",
         subt1:"",
         subt2:"",
@@ -323,7 +323,7 @@ export const GoodToKnowData = [
         text3: "Please read our full shipping policy."
     },
     {
-        imgURL: undo,
+        imgURL: "bg-undo",
         title: "CANCELLATIONS & RETURNS",
         subt1:"Cancellations",
         subt2:"Returns",

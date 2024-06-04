@@ -43,6 +43,12 @@ export default {
         'truck-fast': "url('assets/icons/utils/truck-fast.svg')",
         'support': "url('assets/icons/utils/support-icon.svg')",
         'shield': "url('assets/icons/utils/shield-tick.svg')",
+        'sound-wave': "url('assets/icons/utils/sounds.svg')",
+        'arrow': "url('assets/icons/utils/arrow.svg')",
+        'flag': "url('assets/icons/utils/flag.svg')",
+        'shipping': "url('assets/icons/utils/shipping.svg')",
+        'undo': "url('assets/icons/utils/undo.svg')",
+        'authenticity': "url('assets/icons/utils/authenticity.svg')",
       },
       screens: {
         "wide": "1440px"
