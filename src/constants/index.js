@@ -19,19 +19,19 @@ export const navLinks = [
 export const BrandImages = [
     {
         src: Nike, 
-        alt: "Nike logo",
+        alt: "Nike Logo",
     },
     {
         src: Jordan, 
-        alt: "Jordan logo",
+        alt: "Jordan Logo",
     },
     {
         src: OffWhite,
-        alt: "Off-white logo",
+        alt: "Off-white Logo",
     },
     {
         src: Yeezy,
-        alt: "Yeezy logo",
+        alt: "Yeezy Logo",
     },
 ];
 
@@ -39,32 +39,32 @@ export const BrandImages = [
 export const TravisScottSneakers = [
     {
         src: NikeSBDunkLowxTS,
-        alt: "Nike SB Dunk Low x Travis Scott"
+        alt: "Nike SB Dunk Low for Travis Scott"
     },
     {
         src: NikeAirForce1LowxTS,
-        alt: "Nike Air Force 1 Low x Travis Scott Cactus Jack"
+        alt: "Nike Air Force 1 Low for Travis Scott Cactus Jack"
     },
     {
         src: NikeAirMax270ReactxTS,
-        alt: "Nike Air Max 270 React x Travis Scott Cactus Trails"
+        alt: "Nike Air Max 270 React for Travis Scott Cactus Trails"
     }
 ];
 
 
 export const services = [
     {
-        imgURL: truckFast,
+        imgURL: "bg-truck-fast",
         label: "Free shipping",
         subtext: "Enjoy seamless shopping with our complimentary shipping service."
     },
     {
-        imgURL: shieldTick,
+        imgURL: "bg-shield",
         label: "Secure Payment",
         subtext: "Experience worry-free transactions with our secure payment options."
     },
     {
-        imgURL: supportIcon,
+        imgURL: "bg-support",
         label: "Love to help you",
         subtext: "Our dedicated team is here to assist you every step of the way."
     },

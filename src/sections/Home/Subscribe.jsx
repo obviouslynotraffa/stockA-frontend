@@ -5,10 +5,10 @@ const Subscribe = () => {
       <section className='w-full bg-flag-color padding-x my-10'>
         <div className='flex justify-between items-center max-w-screen-wide gap-10 py-20 max-lg:flex-col m-auto'>
             <div className='flex justify-center items-center flex-col gap-5'>
-                <h3 className='text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold text-black'>
+                <h5 className='text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold text-black'>
                     Sign Up for
                     <span className='text-white '> Updates </span>& Newsletter
-                </h3>
+                </h5>
                 <p className='text-white lg:max-w-md font-montserrat'>
                     Don't miss a single drop! You will receive an email every time there is a <span className=' font-bold'>raffle</span> and <span className=' font-bold'>releases</span>.
                 </p>

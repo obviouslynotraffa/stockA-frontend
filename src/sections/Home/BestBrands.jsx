@@ -5,9 +5,9 @@ const BestBrands = () => {
   return (
     <section className="padding-x pb-8 w-full bg-gradient-to-b from-gray-300 to-white">
       <div className="flex flex-col justify-center items-center max-w-screen-wide m-auto">
-        <h2 className="md:text-4xl text-[30px] leading-loose  font-montserrat font-bold py-8">
+        <h3 className="md:text-4xl text-[30px] leading-loose font-palanquin font-bold py-8">
             Best Seller Brands
-        </h2>
+        </h3>
 
         <div className="flex flex-1 flex-wrap justify-evenly items-center py-8 gap-20">
             {BrandImages.map((brand)=> (

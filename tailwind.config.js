@@ -38,7 +38,11 @@ export default {
         'hamburger-menu': "url('assets/icons/utils/hamburger-menu.svg')",
         'close-menu': "url('assets/icons/utils/close-menu.svg')",
         'black-logo': "url('assets/icons/branding/black-logo-company.png')",
-        'white-logo': "url('assets/icons/branding/white-logo-company.png')"
+        'white-logo': "url('assets/icons/branding/white-logo-company.png')",
+        'star': "url('assets/icons/utils/star.svg')",
+        'truck-fast': "url('assets/icons/utils/truck-fast.svg')",
+        'support': "url('assets/icons/utils/support-icon.svg')",
+        'shield': "url('assets/icons/utils/shield-tick.svg')",
       },
       screens: {
         "wide": "1440px"

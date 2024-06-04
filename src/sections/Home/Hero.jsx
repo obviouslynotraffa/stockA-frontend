@@ -12,9 +12,9 @@ const Hero = () => {
                     Don't miss the most recent release!
                   </p>
 
-                  <h1 className='xl:text-8xl md:text-[4rem] md:leading-20 text-4xl font-bold font-montserrat py-6'>
+                  <h2 className='xl:text-8xl md:text-[4rem] md:leading-20 text-4xl font-bold font-montserrat py-6'>
                     Give Your Outfit A <span className='text-flag-color'>New</span> Style
-                  </h1>
+                  </h2>
 
                   <p className='text-slate-gray text-2xl leading-6'>
                     Buy limited editions sneakers.
@@ -27,9 +27,9 @@ const Hero = () => {
                     to="/products" 
                     className='bg-flag-color mt-5 rounded-full py-2.5 w-[200px] hover:bg-green-900 flex justify-center items-center md:mt-5'
                   >
-                    <button className='text-white font-semibold hover:underline '>
-                      Explore Now
-                    </button>
+                    <span className='text-white font-semibold hover:underline '>
+                      Explore Our Collection
+                    </span>
                   </Link>
                 </div>
                 

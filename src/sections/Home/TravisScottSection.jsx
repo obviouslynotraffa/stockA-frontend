@@ -10,7 +10,7 @@ const TravisScottSection = () => {
           <div>
             <img 
               src={Jordan1RetroHighOGxTS} 
-              alt="Jordan x Travis Scott Shoes" 
+              alt="Jordan 1 Retro High Original for Travis Scott" 
               className='rounded-xl shadow-2xl bg-card bg-center bg-cover'
               width={550}
               height={550}
@@ -34,9 +34,9 @@ const TravisScottSection = () => {
         </div>
 
         <div className=' w-[90%] mb-8 lg:w-[50%] px-10  text-center flex justify-center items-center flex-col gap-8'>
-          <p className='font-bold text-4xl xl:text-4xl mb-auto'>
+          <h4 className='font-bold text-[38px] xl:text-4xl mb-auto font-montserrat'>
             Experience the <span className='text-flag-color'>Travis Scott</span> Collection: Where Style Meets <span className='text-flag-color'>Innovation</span>
-          </p>
+          </h4>
 
           <div className='text-slate-gray flex flex-col justify-center items-center gap-8 text-lg leading-8'>
             <p>
