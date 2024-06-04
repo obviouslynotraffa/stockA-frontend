@@ -142,19 +142,19 @@ export const ContactInfo = [
         title: "Call Us",
         info: "Whether you need help with your account, have inquiries about our products, or simply want to provide feedback, we're here to provide prompt and personalized support tailored to your needs.",
         details: "+1-800-123-4567",
-        icon: phone
+        icon: "bg-phone"
     },
     {
         title: "Visit Us",
         info: "Planning to visit our physical location? We're excited to welcome you in person! Our friendly team is ready to assist you with any questions or concerns you may have during your visit.",
         details: "123 Main Street, New York, NY 10001",
-        icon: poi
+        icon: "bg-poi"
     },
     {
         title: "Live Chat",
         info: "Prefer instant assistance without picking up the phone? Our live chat feature puts you in direct contact with our knowledgeable support team in real-time. We're here to help you 24/7!",
         details: "Start Chat",
-        icon: liveChat
+        icon: "bg-live-chat"
     }
 ];
 

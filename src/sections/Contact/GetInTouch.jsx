@@ -4,9 +4,9 @@ const GetInTouch = () => {
   return (
     <section className='w-full py-10 padding-x max-w-screen-wide max-container '>
         <div className='flex flex-col'>
-            <h1 className='w-full font-montserrat text-4xl font-bold '>
+            <h2 className='w-full font-montserrat text-4xl font-bold '>
                 Get In Touch
-            </h1>
+            </h2>
             <div className='flex flex-row justify-around py-10 flex-wrap gap-5 max-sm:gap-10'>
                 <div className='w-[500px] max-lg:w-[80%] max-sm:w-full max-md:w-[90%] flex flex-col'>
                     <div className="flex flex-col justify-start">
@@ -99,12 +99,8 @@ const GetInTouch = () => {
                                 {section.info}
                             </p>
                             <div className="font-palanquin text-flag-color font-bold text-xl flex flex-row gap-6 items-center">
-                                <img 
-                                    src={section.icon}
-                                    alt={section.title}
-                                    width={32}
-                                    height={32}
-                                />
+                                <div className={"w-[42px] h-[36px] bg-center bg-no-repeat bg-cover " + section.icon}>
+                                </div>
                                 <span className="w-full hover:underline hover:cursor-pointer">
                                     {section.details}
                                 </span>

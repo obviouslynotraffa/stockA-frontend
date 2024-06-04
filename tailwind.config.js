@@ -49,6 +49,9 @@ export default {
         'shipping': "url('assets/icons/utils/shipping.svg')",
         'undo': "url('assets/icons/utils/undo.svg')",
         'authenticity': "url('assets/icons/utils/authenticity.svg')",
+        'poi': "url('assets/icons/utils/poi.svg')",
+        'live-chat': "url('assets/icons/utils/live-chat.svg')",
+        'phone': "url('assets/icons/utils/call-ringing.svg')"
       },
       screens: {
         "wide": "1440px"
