@@ -117,21 +117,21 @@ export const footerLinks = [
     {
         title: "Usefull links",
         links: [
-            { name: "Coupons", link: "/" },
-            { name: "Blog", link: "/" },
-            { name: "Return policy", link: "/" },
-            { name: "Join affiliate", link: "/" },
-            { name: "Contanct us", link: "/" }
+            { name: "Coupons", link: "https://www.youtube.com/watch?v=xvFZjo5PgG0" },
+            { name: "Blog", link: "https://www.youtube.com/watch?v=xvFZjo5PgG0" },
+            { name: "Return policy", link: "https://www.youtube.com/watch?v=xvFZjo5PgG0" },
+            { name: "Join affiliate", link: "https://www.youtube.com/watch?v=xvFZjo5PgG0" },
+            { name: "Contact us", link: "/contact" }
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "About us", link: "/about" },
+            { name: "FAQs", link: "/contact" },
+            { name: "How it works", link: "https://www.youtube.com/watch?v=xvFZjo5PgG0" },
+            { name: "Privacy policy", link: "https://www.youtube.com/watch?v=xvFZjo5PgG0" },
+            { name: "Payment policy", link: "https://www.youtube.com/watch?v=xvFZjo5PgG0" },
         ],
     }
 
