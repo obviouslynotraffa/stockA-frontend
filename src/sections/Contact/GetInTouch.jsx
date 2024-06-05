@@ -17,26 +17,39 @@ const GetInTouch = () => {
                         Sending us an email is another convenient way to get in touch. Drop us a message, and we'll get back to you as soon as possible with the information or assistance you need.
                         </p>
                     </div>
+                    <span className="text-red-500 pt-5 font-montserrat text-sm" aria-hidden="true">
+                        * Required fields
+                    </span>
                     <form action="" className="flex flex-col gap-10 py-5">
                         <div className="flex flex-row justify-between">
                             <div className="flex flex-col w-[48%]">
                                 <label htmlFor="name" className="font-semibold font-palanquin">
-                                    Name
+                                    <div className="flex flex-row gap-1 ">
+                                        Name
+                                        <span aria-hidden="true" className="text-red-500">*</span>
+                                        <span class="sr-only">(obbligatorio)</span>
+                                    </div>
                                 </label>
                                 <input 
                                     type="text" 
                                     id="name"
                                     className="border-b-4 border-black focus:outline-none text-gray-800"
+                                    required aria-required="true"
                                 />
                             </div>
                             <div className="flex flex-col w-[48%]">
                                 <label htmlFor="surname" className="font-semibold font-palanquin">
-                                    Surname
+                                    <div className="flex flex-row gap-1 ">
+                                        Surname
+                                        <span aria-hidden="true" className="text-red-500">*</span>
+                                        <span class="sr-only">(obbligatorio)</span>
+                                    </div>
                                 </label>
                                 <input 
                                     type="text" 
                                     id="surname"
                                     className="border-b-4 border-black focus:outline-none"
+                                    required aria-required="true"
                                 />
                             </div>
                         </div>
@@ -44,17 +57,22 @@ const GetInTouch = () => {
                         <div className="flex flex-row justify-between">
                             <div className="flex flex-col w-[48%]">
                                 <label htmlFor="email" className="font-semibold font-palanquin">
-                                    Email
+                                    <div className="flex flex-row gap-1 ">
+                                        Email
+                                        <span aria-hidden="true" className="text-red-500">*</span>
+                                        <span class="sr-only">(obbligatorio)</span>
+                                    </div>
                                 </label>
                                 <input 
-                                    type="text" 
+                                    type="email" 
                                     id="email"
                                     className="border-b-4 border-black focus:outline-none"
+                                    required aria-required="true"
                                 />
                             </div>
                             <div className="flex flex-col w-[48%]">
                                 <label htmlFor="phone" className="font-semibold font-palanquin">
-                                    Phone Number
+                                    Phone number
                                 </label>
                                 <input 
                                     type="text" 
@@ -67,23 +85,29 @@ const GetInTouch = () => {
                         <div>
                             <div className="flex flex-col w-full">
                                 <label htmlFor="message" className="font-semibold font-palanquin">
-                                    Message
+                                    <div className="flex flex-row gap-1 ">
+                                        Message
+                                        <span aria-hidden="true" className="text-red-500">*</span>
+                                        <span class="sr-only">(obbligatorio)</span>
+                                    </div>
                                 </label>
                                 <textarea 
                                     cols={20}
                                     rows={7} 
                                     id="message"
                                     className="border-b-4 border-black focus:outline-none"
+                                    required aria-required="true"
                                 >
                                 </textarea>
                             </div>
                         </div>
 
-                        <input 
+                        <button 
                             type="submit" 
-                            value="Submit"
                             className="ml-auto text-white bg-black font-bold font-lg p-3 hover:cursor-pointer hover:bg-slate-800 hover:underline"
-                        />
+                        >
+                            Submit
+                        </button>
 
                     </form>
                 </div>
@@ -99,7 +123,7 @@ const GetInTouch = () => {
                                 {section.info}
                             </p>
                             <div className="font-palanquin text-flag-color font-bold text-xl flex flex-row gap-6 items-center">
-                                <div className={"w-[42px] h-[36px] bg-center bg-no-repeat bg-cover " + section.icon}>
+                                <div className={"w-[42px] h-[36px] bg-center bg-no-repeat bg-contain " + section.icon}>
                                 </div>
                                 <span className="w-full hover:underline hover:cursor-pointer">
                                     {section.details}

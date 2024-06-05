@@ -10,8 +10,8 @@ const AboutBanner = () => {
                 </p>
                 <h2 className='flex flex-col text-4xl font-extrabold text-white'>
                     <span>MISSION</span>
-                    <span>MISSION</span>
-                    <span>MISSION</span>
+                    <span aria-hidden="true">MISSION</span>
+                    <span aria-hidden="true">MISSION</span>
                 </h2>
             </div>   
         </div>
