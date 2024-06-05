@@ -51,7 +51,17 @@ export default {
         'authenticity': "url('assets/icons/utils/authenticity.svg')",
         'poi': "url('assets/icons/utils/poi.svg')",
         'live-chat': "url('assets/icons/utils/live-chat.svg')",
-        'phone': "url('assets/icons/utils/call-ringing.svg')"
+        'phone': "url('assets/icons/utils/call-ringing.svg')",
+        'verified': "url('assets/icons/about/verified.png')",
+        'trophy': "url('assets/icons/about/trophy.png')",
+        'hands': "url('assets/icons/about/hands.png')",
+        'rocket': "url('assets/icons/about/rocket.png')",
+        'mountain': "url('assets/icons/about/mountain.png')",
+        'art': "url('assets/images/utils/Art.png')",
+        'playworks': "url('assets/images/utils/Playworks.png')",
+        'sostenibility': "url('assets/images/utils/Sostenibility.png')",
+        'student': "url('assets/images/utils/Student.png')",
+        'change': "url('assets/images/utils/Change.png')",
       },
       screens: {
         "wide": "1440px"

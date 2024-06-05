@@ -247,27 +247,27 @@ export const KeyNumbersData = [
 
 export const OurValuesData = [
     {
-        imgURL: verified,
+        imgURL: "bg-verified",
         title: "Committed to What is Right",
         desc: "We believe in the power of truth, authenticity, and transparency. We do the right thing and we do it the right way."
     },
     {
-        imgURL: trophy,
+        imgURL: "bg-trophy",
         title: "Champions for Our Customers",
         desc: "We always listen and learn to ensure our customers experience the quality they deserve every day."
     },
     {
-        imgURL: hands,
+        imgURL: "bg-hands",
         title: "Playing on the Dream Team",
         desc: "Our team is united by our vision, commitment to each other, and the joy of sharing this journey together. We play to win and we do it while having fun."
     },
     {
-        imgURL: rocket,
+        imgURL: "bg-rocket",
         title: "Hungry for the Future",
         desc: "We are committed to learning, growing, and innovating. We push against the status quo and are not afraid to make mistakes."
     },
     {
-        imgURL: mountain,
+        imgURL: "bg-mountain",
         title: "Building a Dynasty",
         desc: "We continuously build a better product, a better workplace, and a better world. We will keep raising the bar, changing the game, and ensuring that what we do is never forgotten."
     }
@@ -276,27 +276,27 @@ export const OurValuesData = [
 
 export const CommunityData = [
     {
-        imgURL : Art,
+        imgURL : "bg-art",
         title : "Art & Culture",
         text : "StockA is inherently connected to the artistic community. The worlds of sneakers and streetwear, in particular, have roots that trace back to some of the most famous street artists, graffiti writers and designers. The company supports organizations that aim to introduce young people to the arts and culture through initiatives"
     },
     {
-        imgURL: Playworks,
+        imgURL: "bg-playworks",
         title: "Youth & Recreation",
         text: "The company supports initiatives designed to engage young people in recreational activities that align with the products traded on StockA, including skateboarding schools, basketball camps, and other activities designed to connect kids to sports and educational programming."
     },
     {
-        imgURL: Sostenibility,
+        imgURL: "bg-sostenibility",
         title: "Sustainability",
         text: "StockA is committed to investing in sustainable practices within its business operations and externally through its support of campaigns, initiatives, and philanthropic associations such as Oceana, an organization dedicated to protecting and restoring the world’s oceans."
     },
     {
-        imgURL: Student,
+        imgURL: "bg-student",
         title: "Tech Education",
         text: "StockA collaborates with organizations that engage young people in STEAM initiatives and the development of related technical skills to encourage a future in applied contexts, with a specific focus on minorities and disadvantaged students. Diversity in technology is painfully lacking, and StockA aims to play a role in ensuring the industry is representative."
     },
     {
-        imgURL: Change,
+        imgURL: "bg-change",
         title: "Social Justice",
         text: "StockA promotes a diverse and inclusive community, not only for its team members but for the millions of buyers, sellers, manufacturers, and creators it serves.  In 2020, StockA matched team member donations to organizations like the George Floyd Memorial Fund, the NAACP Legal Defense Fund, and Know Your Rights Camp, totaling over $100,000 in support of their work."
     }

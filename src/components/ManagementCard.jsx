@@ -5,7 +5,7 @@ const ManagementCard = ({imgURL, name, title}) => {
     <div className='flex flex-col max-sm:max-w-[40%] max-md:max-w-[200px] max-lg:max-w-[25%] max-w-[20%] group hover:cursor-pointer'>
                 <img 
                     src={imgURL} 
-                    alt={name}
+                    alt={"Profile picture of " + name}
                     width={300}
                     height={300}
                 />

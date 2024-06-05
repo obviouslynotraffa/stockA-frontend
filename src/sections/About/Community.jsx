@@ -10,11 +10,8 @@ const Community = () => {
         {CommunityData.map((value, index) => {
           return (
             <div className="flex flex-col gap-3 md:gap-5 md:w-[300px] lg:w-[350px] w-[80%]" key={index}>
-              <img 
-                src={value.imgURL}
-                alt={value.title}
-                className="w-full h-[200px] object-cover"
-              />
+              <div className={"w-full h-[200px] bg-cover bg-center bg-no-repeat " + value.imgURL}>
+              </div>
                
               <h6 className="font-semibold font-montserrat text-xl">
                 {value.title}

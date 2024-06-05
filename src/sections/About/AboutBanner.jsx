@@ -8,11 +8,11 @@ const AboutBanner = () => {
                 <p className='font-bold text-black font-montserrat text-2xl md:text-3xl p-4 bg-white max-w-[550px]'>
                 Empowering Everyone To Trade What They Love
                 </p>
-                <h1 className='flex flex-col text-4xl font-extrabold text-white'>
+                <h2 className='flex flex-col text-4xl font-extrabold text-white'>
                     <span>MISSION</span>
                     <span>MISSION</span>
                     <span>MISSION</span>
-                </h1>
+                </h2>
             </div>   
         </div>
     </section>

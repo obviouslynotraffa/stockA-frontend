@@ -6,9 +6,9 @@ function KeyNumbers() {
     <section className='w-full bg-pale-blue py-5'>
         <div className='py-10 padding-x max-w-screen-wide max-container'>
             <div className='flex flex-col justify-center items-center lg:w-[750px] m-auto gap-12'>
-                <h3 className='font-extrabold font-montserrat text-4xl max-sm:text-center'>
+                <h4 className='font-extrabold font-montserrat text-4xl max-sm:text-center'>
                     KEY NUMBERS
-                </h3>
+                </h4>
 
                 <div className='flex flex-col md:flex-row flex-wrap gap-8 justify-center'>
                     {KeyNumbersData.map((data, index) => (
