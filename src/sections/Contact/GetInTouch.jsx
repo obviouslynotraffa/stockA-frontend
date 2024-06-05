@@ -27,7 +27,7 @@ const GetInTouch = () => {
                                     <div className="flex flex-row gap-1 ">
                                         Name
                                         <span aria-hidden="true" className="text-red-500">*</span>
-                                        <span class="sr-only">(obbligatorio)</span>
+                                        <span className="sr-only">(obbligatorio)</span>
                                     </div>
                                 </label>
                                 <input 
@@ -42,7 +42,7 @@ const GetInTouch = () => {
                                     <div className="flex flex-row gap-1 ">
                                         Surname
                                         <span aria-hidden="true" className="text-red-500">*</span>
-                                        <span class="sr-only">(obbligatorio)</span>
+                                        <span className="sr-only">(obbligatorio)</span>
                                     </div>
                                 </label>
                                 <input 
@@ -60,7 +60,7 @@ const GetInTouch = () => {
                                     <div className="flex flex-row gap-1 ">
                                         Email
                                         <span aria-hidden="true" className="text-red-500">*</span>
-                                        <span class="sr-only">(obbligatorio)</span>
+                                        <span className="sr-only">(obbligatorio)</span>
                                     </div>
                                 </label>
                                 <input 
@@ -88,7 +88,7 @@ const GetInTouch = () => {
                                     <div className="flex flex-row gap-1 ">
                                         Message
                                         <span aria-hidden="true" className="text-red-500">*</span>
-                                        <span class="sr-only">(obbligatorio)</span>
+                                        <span className="sr-only">(obbligatorio)</span>
                                     </div>
                                 </label>
                                 <textarea 
