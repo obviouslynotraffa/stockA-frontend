@@ -6,7 +6,8 @@ import Contact from './pages/Contact';
 import ProductDetails from "./pages/ProductDetails";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import Account from "./pages/Account";
+import LogIn from "./pages/LogIn";
+import SignUp from "./pages/SignUp";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -19,8 +20,9 @@ const App = () => {
         <Route path="/products" exact element={<Products />}/> 
         <Route path="/about" exact element={<About />}/> 
         <Route path="/contact" exact element={<Contact />}/> 
-        <Route path="/product/:id" element={<ProductDetails />}/>
-        <Route path="/account" element={<Account />} />
+        <Route path="/product/:id" exact element={<ProductDetails />}/>
+        <Route path="/login" exact element={<LogIn />} />
+        <Route path="/signup" exact element={<SignUp />} />
       </Routes>
       <Footer />
     </Router>
