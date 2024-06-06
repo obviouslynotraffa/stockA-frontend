@@ -4,17 +4,19 @@ import TravisScottSection from "../sections/Home/TravisScottSection"
 import Subscribe from "../sections/Home/Subscribe"
 import Services from "../sections/Home/Services"
 import CustomerReviews from "../sections/Home/CustomerReviews"
-import { Helmet } from "react-helmet"
+import { Helmet, HelmetProvider } from "react-helmet-async"
 
 const Home = () => {
   return (
     <>
-      <Helmet>
-        <title>StockA</title>
-        <meta name="description" content="StockA is an online marketplace and clothing retailer, primarily focused on sneakers." />
-        <meta name="keywords" content="StockA, sneakers, air jordan 1, air jordan 1 retro high, air jordan high og, New York"/>
-        <meta name="author" content="StockA"/>
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>StockA</title>
+          <meta name="description" content="StockA is an online marketplace and clothing retailer, primarily focused on sneakers." />
+          <meta name="keywords" content="StockA, sneakers, air jordan 1, air jordan 1 retro high, air jordan high og, New York"/>
+          <meta name="author" content="StockA"/>
+        </Helmet>
+      </HelmetProvider>
       <main>
         <Hero />
         <BestBrands />
