@@ -1,13 +1,9 @@
 import { Nike, Jordan, Yeezy, OffWhite } from '../assets/images'
 import { NikeSBDunkLowxTS, NikeAirForce1LowxTS, NikeAirMax270ReactxTS } from '../assets/images'
-import { supportIcon, shieldTick, truckFast, poi, liveChat, phone } from '../assets/icons';
 import { customer1, customer2 } from '../assets/images';
 import { facebook, instagram, twitter } from '../assets/icons';
 import { applestore, playstore } from '../assets/images';
 import { scottScutler,  andyLisk, terraCarmichael, gregSwarth, lauraLewis,  seanMccarteny, deenaBahri, stephenWinn   } from '../assets/images';
-import { hands, mountain, rocket, trophy, verified } from '../assets/icons';
-import { Art, Change, Playworks, Sostenibility, Student } from '../assets/images';
-import {undo, authenticity, shipping} from '../assets/icons';
 
 export const navLinks = [
     { href: "/", label: "Home" },
