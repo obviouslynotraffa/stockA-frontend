@@ -62,6 +62,9 @@ export default {
         'sostenibility': "url('assets/images/utils/Sostenibility.png')",
         'student': "url('assets/images/utils/Student.png')",
         'change': "url('assets/images/utils/Change.png')",
+        'account': "url('assets/images/utils/hero-thumbnail.png')",
+        'google': "url('assets/icons/socials/google.svg')",
+        'apple': "url('assets/icons/socials/apple.svg')",
       },
       screens: {
         "wide": "1440px"

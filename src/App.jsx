@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import ProductDetails from "./pages/ProductDetails";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Account from "./pages/Account";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/about" exact element={<About />}/> 
         <Route path="/contact" exact element={<Contact />}/> 
         <Route path="/product/:id" element={<ProductDetails />}/>
+        <Route path="/account" element={<Account />} />
       </Routes>
       <Footer />
     </Router>

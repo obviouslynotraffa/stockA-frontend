@@ -17,18 +17,12 @@ const Navbar = () => {
             StockA
           </h1>
         </div>
-        <ul className='flex-1 flex flex-start items-center gap-16 max-lg:hidden font-medium text-lg font-montserrat'>
+        <ul className='flex-1 flex flex-start items-center gap-16 max-lg:hidden font-medium text-lg font-montserrat [&>li:last-child]:ml-auto'>
           {navLinks.map((item) => (
-            <CustomLink
-              to={item.href}
-              key={item.label}
-            >
+            <CustomLink to={item.href} key={item.label}>
               {item.label}
             </CustomLink>
           ))}
-          <li className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24 ml-auto'>
-            Sign in
-          </li>
         </ul>
         <div className='hidden max-lg:block'>
           <button 
@@ -54,11 +48,6 @@ const Navbar = () => {
                 {item.label}
               </CustomLink>
             ))}
-            <li className='text-lg leading-normal font-medium font-montserrat'>
-              <button onClick={() => setMenuOpen(false)}>
-                Sign in
-              </button>
-            </li>
           </ul>
         </div>
       )}
