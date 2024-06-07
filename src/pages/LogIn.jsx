@@ -68,6 +68,7 @@ const LogIn = () => {
                       name="email" 
                       required aria-required="true" 
                       aria-label="Insert your email"
+                      placeholder="example@gmail.com"
                       className="border-b border-gray-600 focus:outline-none text-gray-800"
                     />
                   </div>
@@ -79,6 +80,7 @@ const LogIn = () => {
                       name="password" 
                       required aria-required="true" 
                       aria-label="Insert your password"
+                      placeholder="Enter your password"
                       className="border-b border-gray-600 focus:outline-none text-gray-800"
                     />
                   </div>
@@ -160,6 +162,7 @@ const LogIn = () => {
                   name="email" 
                   required aria-required="true" 
                   aria-label="Insert your email"
+                  placeholder="example@gmail.com"
                   className="border-b border-gray-600 focus:outline-none text-gray-800"
                 />
               </div>
@@ -171,6 +174,7 @@ const LogIn = () => {
                   name="password" 
                   required aria-required="true" 
                   aria-label="Insert your password"
+                  placeholder="Enter your password"
                   className="border-b border-gray-600 focus:outline-none text-gray-800"
                 />
               </div>
