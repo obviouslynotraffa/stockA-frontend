@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { navLinks } from '../constants';
+import { navLinksMobile } from '../constants';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 const Navbar = () => {
@@ -17,12 +18,24 @@ const Navbar = () => {
             StockA
           </h1>
         </div>
-        <ul className='flex-1 flex flex-start items-center gap-16 max-lg:hidden font-medium text-lg font-montserrat [&>li:last-child]:ml-auto'>
+        <ul className='flex-1 flex flex-start items-center gap-10 xl:gap-16 max-lg:hidden font-medium text-lg font-montserrat'>
           {navLinks.map((item) => (
             <CustomLink to={item.href} key={item.label}>
               {item.label}
             </CustomLink>
           ))}
+          <div className='ml-auto flex flex-row gap-10 xl:gap-12 items-center'>
+            <CustomLink to='/signin' className="flex flex-row gap-2 items-center">
+              <span className='bg-arrowToShape bg-center bg-no-repeat w-[28px] h-[28px]'>
+              </span>
+              Sign In
+            </CustomLink>
+            <CustomLink to='/signup' className="flex flex-row gap-2 items-center">
+              <span className='bg-pencil bg-center bg-no-repeat w-[28px] h-[28px]'>
+              </span>
+              Sign Up
+            </CustomLink>
+          </div>
         </ul>
         <div className='hidden max-lg:block'>
           <button 
@@ -36,9 +49,9 @@ const Navbar = () => {
         </div>
       </nav>
       {menuOpen && (
-        <div className='bg-black text-white p-4 absolute top-[108px] right-0 w-full h-[360px] flex flex-col items-start z-50 lg:hidden'>
+        <div className='bg-black text-white p-4 absolute top-[108px] right-0 w-full h-[445px] flex flex-col items-start z-50 lg:hidden'>
           <ul className='flex flex-col items-start gap-10 pt-5 w-full'>
-            {navLinks.map((item) => (
+            {navLinksMobile.map((item) => (
               <CustomLink
                 to={item.href}
                 key={item.label}
@@ -60,11 +73,11 @@ function CustomLink({ to, children, ...props }) {
   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
   return (
-    <li className={isActive ? 'border-b-2 text-lg leading-normal font-medium font-montserrat border-flag-color' : "hover:text-gray-500"}>
+    <li className={isActive ? 'border-b-2 text-lg leading-normal font-medium font-montserrat border-flag-color ' : "hover:text-gray-500"}>
       {isActive ? (
-        <p>{children}</p>
+        <p className='flex flex-row gap-2 items-center'>{children}</p>
       ) : (
-        <Link to={to} {...props}>
+        <Link to={to} {...props} >
           {children}
         </Link>
       )}

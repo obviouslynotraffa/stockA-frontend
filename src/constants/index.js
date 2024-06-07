@@ -8,8 +8,16 @@ export const navLinks = [
     { href: "/", label: "Home" },
     { href: "/products", label: "Products" },
     { href: "/about", label: "About Us" },
+    { href: "/contact", label: "Contact" }
+];
+
+export const navLinksMobile = [
+    { href: "/", label: "Home" },
+    { href: "/products", label: "Products" },
+    { href: "/about", label: "About Us" },
     { href: "/contact", label: "Contact" },
-    { href: "/login", label: "Login" }
+    { href: "/signin", label: "Sign In" },
+    { href: "/signup", label: "Sign Up" }
 ];
 
 export const BrandImages = [
