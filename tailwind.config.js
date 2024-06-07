@@ -68,6 +68,8 @@ export default {
         'apple': "url('assets/icons/socials/apple.svg')",
         'applestore': "url('assets/images/app-store/apple-store.png')",
         'playstore': "url('assets/images/app-store/play-store.png')",
+        'pencil': "url('assets/icons/utils/pencil.svg')",
+        'arrowToShape': "url('assets/icons/utils/arrowToShape.svg')",
       },
       screens: {
         "wide": "1440px"
