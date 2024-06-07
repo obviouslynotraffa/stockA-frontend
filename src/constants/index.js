@@ -2,7 +2,6 @@ import { Nike, Jordan, Yeezy, OffWhite } from '../assets/images'
 import { NikeSBDunkLowxTS, NikeAirForce1LowxTS, NikeAirMax270ReactxTS } from '../assets/images'
 import { customer1, customer2 } from '../assets/images';
 import { facebook, instagram, twitter } from '../assets/icons';
-import { applestore, playstore } from '../assets/images';
 import { scottScutler,  andyLisk, terraCarmichael, gregSwarth, lauraLewis,  seanMccarteny, deenaBahri, stephenWinn   } from '../assets/images';
 
 export const navLinks = [
@@ -101,11 +100,11 @@ export const socials = [
 
 export const appStores = [
     {
-        src: applestore,
+        src: "bg-applestore",
         alt: "Apple Store logo"
     },
     {
-        src: playstore,
+        src: "bg-playstore",
         alt: "Play Store logo"
     }    
 ];

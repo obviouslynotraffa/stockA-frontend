@@ -65,6 +65,8 @@ export default {
         'account': "url('assets/images/utils/hero-thumbnail.png')",
         'google': "url('assets/icons/socials/google.svg')",
         'apple': "url('assets/icons/socials/apple.svg')",
+        'applestore': "url('assets/images/app-store/apple-store.png')",
+        'playstore': "url('assets/images/app-store/play-store.png')",
       },
       screens: {
         "wide": "1440px"

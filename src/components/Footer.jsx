@@ -1,6 +1,6 @@
-import { whiteLogo } from "../assets/icons"
 import { socials, appStores } from "../constants"
 import { footerLinks } from "../constants"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -8,12 +8,9 @@ const Footer = () => {
         <div className="padding-x text-white max-w-screen-wide m-auto flex flex-col pt-3">
             <div className="flex flex-row flex-wrap gap-5 justify-between max-md:justify-center items-start pb-8 ">
                 <div className="flex flex-col items-start gap-5 w-[275px] max-sm:items-center max-sm:text-center">
-                    <img 
-                        src={whiteLogo}
-                        alt="StockA logo"
-                        width={150}
-                        height={150} 
-                    />
+
+                    <div className="w-[150px] h-[38px] bg-white-logo bg-center bg-contain bg-no-repeat">
+                    </div>
                     <p className="text-zinc-400 font-montserrat font-medium">
                         Passion, style, and comfort come together in every step. Explore our range of sneakers to meet your every fashion and functionality desire.
                     </p>
@@ -39,9 +36,9 @@ const Footer = () => {
                         <ul>
                             {section.links.map((link) => (
                                 <li className="text-zinc-400 font-medium font-montserrat py-1 hover:underline hover:text-slate-gray max-sm:text-center" key={link.name}>
-                                    <a href={link.link}>
+                                    <Link to={link.link}>
                                     {link.name}
-                                    </a>
+                                    </Link>
                                 </li>
                             ))}
                         </ul>
@@ -56,22 +53,16 @@ const Footer = () => {
                         Download the App from Play Store and Apple Store to have a better experience.
                     </p>
                     <div className="flex justify-center items-center gap-3 flex-wrap">
-                        {appStores.map((store) => (
-                            <img 
-                                alt={store.alt}
-                                src={store.src}
-                                width={140}
-                                height={140}
-                                className="hover:cursor-pointer"
-                                key={store.alt}
-                            />
+                        {appStores.map((store, index) => (
+                            <div key={index} className={"w-[140px] h-[41px] bg-center bg-contain bg-no-repeat " + store.src}>
+                           </div> 
                         ))}
                     </div> 
                 </div>
             </div>
 
             <div className="pt-8 border-t-2 border-white-400 text-center text-zinc-400 font-montserrat font-bold">
-                Copyright 2024 - StockA
+                &copy; Copyright 2024 - StockA
             </div>
         </div>
     </footer>
