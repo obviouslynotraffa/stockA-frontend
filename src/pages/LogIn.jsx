@@ -6,7 +6,7 @@ const LogIn = () => {
     <>
       <HelmetProvider>
         <Helmet>
-            <title>Login &ndash; StockA</title>
+            <title>Sign In &ndash; StockA</title>
             <meta name="description" content="Login to your StockA's account to live the full experience" />
             <meta name="keywords" content="StockA, login, account, sign in, sign up, create account"/>
             <meta name="author" content="StockA"/>
