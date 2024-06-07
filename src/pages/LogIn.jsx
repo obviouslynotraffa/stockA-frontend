@@ -8,7 +8,7 @@ const LogIn = () => {
         <Helmet>
             <title>Login &ndash; StockA</title>
             <meta name="description" content="Login to your StockA's account to live the full experience" />
-            <meta name="keywords" content="StockA, login, accoutn, sign in, sign up, create accoutn"/>
+            <meta name="keywords" content="StockA, login, account, sign in, sign up, create account"/>
             <meta name="author" content="StockA"/>
         </Helmet>
       </HelmetProvider>
@@ -88,11 +88,11 @@ const LogIn = () => {
                   <div className='flex justify-between items-center '>
                     <div className='flex flex-row justify-center items-center gap-1'>
                       <input type="checkbox" name="remember" value=""/>
-                      <label forhtml="remeber" className='font-palanquin text-md'>
+                      <label forhtml="remeber" className='font-montserrat text-md'>
                         Remeber me
                       </label>
                     </div>
-                    <span className='font-palanquin text-blue-700 font-semibold hover:underline hover:cursor-pointer'>
+                    <span className='font-montserrat text-blue-700 font-semibold hover:underline hover:cursor-pointer'>
                       Forgot password?
                     </span>
                   </div>
@@ -102,11 +102,11 @@ const LogIn = () => {
                       Login
                     </span>
                   </button>
-                  <p className='font-palanquin'>
+                  <p className='w-full font-montserrat'>
                     Don't have an account?
                     <Link 
                       to="/signup" 
-                      className='font-palanquin text-blue-800 font-semibold hover:underline hover:cursor-pointer px-2'
+                      className='font-montserrat text-blue-800 font-semibold hover:underline hover:cursor-pointer px-2'
                     >
                       Create one now
                     </Link>
@@ -182,11 +182,11 @@ const LogIn = () => {
               <div className='flex justify-between items-center '>
                 <div className='flex flex-row justify-center items-center gap-1'>
                   <input type="checkbox" name="remember" value=""/>
-                  <label forhtml="remeber" className='font-palanquin text-md'>
+                  <label forhtml="remeber" className='font-montserrat text-md'>
                     Remeber me
                   </label>
                 </div>
-                <span className='font-palanquin text-blue-700 font-semibold hover:underline hover:cursor-pointer'>
+                <span className='font-montserrat text-blue-700 font-semibold hover:underline hover:cursor-pointer'>
                   Forgot password?
                 </span>
               </div>
@@ -196,11 +196,11 @@ const LogIn = () => {
                   Login
                 </span>
               </button>
-              <p className='font-palanquin'>
+              <p className='font-montserrat'>
                 Don't have an account?
                 <Link 
                   to="/signup" 
-                  className='font-palanquin text-blue-800 font-semibold hover:underline hover:cursor-pointer px-2'
+                  className='font-montserrat text-blue-800 font-semibold hover:underline hover:cursor-pointer px-2'
                 >
                   Create one now
                 </Link>

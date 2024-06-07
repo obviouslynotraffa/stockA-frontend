@@ -63,6 +63,7 @@ export default {
         'student': "url('assets/images/utils/Student.png')",
         'change': "url('assets/images/utils/Change.png')",
         'account': "url('assets/images/utils/hero-thumbnail.png')",
+        'signup': "url('assets/images/utils/signup.webp')",
         'google': "url('assets/icons/socials/google.svg')",
         'apple': "url('assets/icons/socials/apple.svg')",
         'applestore': "url('assets/images/app-store/apple-store.png')",
