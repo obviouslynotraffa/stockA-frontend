@@ -13,7 +13,7 @@ const SignUp = () => {
       </HelmetProvider>
       <main>
         <section className='w-full py-10 mb-8 max-w-screen-wide max-container'>
-          <div className='max-lg:hidden w-[75%] h-[800px] bg-white m-auto flex flex-row-reverse justify-center items-center rounded-lg shadow-2xl shadow-gray-800'>
+          <div className='max-lg:hidden w-[75%] h-[820px] bg-white m-auto flex flex-row-reverse justify-center items-center rounded-lg shadow-2xl shadow-gray-800'>
             <div className='w-[45%] h-full bg-signup bg-center bg-cover rounded-lg'>
             </div>
             <div className='w-[55%] h-full flex flex-col items-center py-2 px-5'>
@@ -65,7 +65,6 @@ const SignUp = () => {
                         name="email" 
                         required aria-required="true" 
                         aria-label="Insert your email"
-                        placeholder="example@gmail.com"
                         className="border-b border-gray-600 focus:outline-none text-gray-800"
                       />
                     </div>
@@ -77,7 +76,6 @@ const SignUp = () => {
                         name="city" 
                         required aria-required="true" 
                         aria-label="Insert your city"
-                        placeholder="New York"
                         className="border-b border-gray-600 focus:outline-none text-gray-800"
                       />
                     </div>
@@ -91,7 +89,6 @@ const SignUp = () => {
                       name="password" 
                       required aria-required="true" 
                       aria-label="Insert your password"
-                      placeholder="Enter your password"
                       className="border-b border-gray-600 focus:outline-none text-gray-800"
                     />
                   </div>
@@ -197,7 +194,6 @@ const SignUp = () => {
                     name="email" 
                     required aria-required="true" 
                     aria-label="Insert your email"
-                    placeholder="example@gmail.com"
                     className="border-b border-gray-600 focus:outline-none text-gray-800"
                   />
                 </div>
@@ -209,7 +205,6 @@ const SignUp = () => {
                     name="city" 
                     required aria-required="true" 
                     aria-label="Insert your city"
-                    placeholder="New York"
                     className="border-b border-gray-600 focus:outline-none text-gray-800"
                   />
                 </div>
@@ -223,7 +218,6 @@ const SignUp = () => {
                   name="password" 
                   required aria-required="true" 
                   aria-label="Insert your password"
-                  placeholder="Enter your password"
                   className="border-b border-gray-600 focus:outline-none text-gray-800"
                 />
               </div>
