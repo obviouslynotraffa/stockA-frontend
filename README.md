@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="src/assets/icons/branding/white-logo-company.png" style="width:auto;height:200px">
+    <img src="src/assets/icons/branding/white-logo-company.png" style="width:80%;height:200px">
 </p>
 
 ## 📄 Description
@@ -13,13 +13,10 @@
 ## ⬇ Installation
 1. Clone the repo
 ```bash
- git clone https://github.com/obviouslynotraffa/stockA.git
-```
-2. Navigate to the project directory
-```bash
+git clone https://github.com/obviouslynotraffa/stockA.git
 cd StockA
 ```
-3. Install dependencies
+2. Install dependencies
 ```bash
 npm install
 ```
