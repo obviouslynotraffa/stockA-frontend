@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
+import Page404 from "./pages/Page404";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/product/:id" exact element={<ProductDetails />}/>
         <Route path="/signin" exact element={<LogIn />} />
         <Route path="/signup" exact element={<SignUp />} />
+        <Route path="*" element={<Page404 />} />
       </Routes>
       <Footer />
     </Router>

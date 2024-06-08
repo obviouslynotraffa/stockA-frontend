@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { PRODUCTS } from '../constants/products';
 import Breadcrumb from '../components/Breadcrumb';
 import ShoeDetails from '../sections/ProductDetails/ShoeDetails';
+import Page404 from './Page404';
 import { Helmet, HelmetProvider } from "react-helmet-async"
 
 
@@ -11,7 +12,7 @@ const ProductDetails = () => {
   const product = PRODUCTS.find((product) => product.URLName === id);
 
   if (!product) {
-      return <h1>404 page placeholder</h1>
+      return <Page404 />
   }
 
   return (
