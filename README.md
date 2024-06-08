@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="src/assets/icons/branding/white-logo-company.png" style="width:80%;height:200px">
+    <img src="src/assets/icons/branding/white-logo-company.png" style="width:65%;">
 </p>
 
 ## 📄 Description
