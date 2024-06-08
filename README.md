@@ -1,8 +1,33 @@
-# React + Vite
+<p align="center">
+    <img src="src/assets/icons/branding/white-logo-company.png" style="width:auto;height:200px">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Description
+**StockA** is a website built with React, Vite, and TailwindCSS, inspired by StockX, an online marketplace and sneaker retailer. The goal is to create a modern, responsive user interface for managing and purchasing sneakers.
 
-Currently, two official plugins are available:
+## ⚙ Technologies Used
+- **React**
+- **Vite**
+- **TailwindCSS**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⬇ Installation
+1. Clone the repo
+```bash
+ git clone https://github.com/obviouslynotraffa/stockA.git
+```
+2. Navigate to the project directory
+```bash
+cd StockA
+```
+3. Install dependencies
+```bash
+npm install
+```
+4. Start the application
+```bash
+npm run dev
+```
+5. Open your browser at
+```bash
+http://localhost:5173/
+```
