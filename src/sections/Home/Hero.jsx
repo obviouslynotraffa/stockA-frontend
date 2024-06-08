@@ -35,7 +35,7 @@ const Hero = () => {
                 
               </div>
       
-              <div className="w-[200px] h-[200px] md:w-[300px] md:h-[500px] bg-hero bg-contain bg-center bg-no-repeat">
+              <div className="w-[85%] h-[350px] md:w-[300px] md:h-[500px] bg-hero bg-contain bg-center bg-no-repeat">
               </div> 
 
             </div>

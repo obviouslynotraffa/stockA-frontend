@@ -7,11 +7,11 @@ const TravisScottSection = () => {
     <section className='w-full max-w-screen-wide m-auto'>
       <div className='padding-x padding-y flex flex-1 justify-around items-center lg:flex-row flex-col-reverse'>
         <div className='flex flex-col'>
-          <div>
+          <div className='flex justify-center items-center'>
             <img 
               src={Jordan1RetroHighOGxTS} 
               alt="Jordan 1 Retro High Original for Travis Scott" 
-              className='rounded-xl shadow-2xl bg-card bg-center bg-cover'
+              className='rounded-xl shadow-2xl bg-card bg-center bg-cover max-sm:w-[80%]'
               width={550}
               height={550}
             />           
