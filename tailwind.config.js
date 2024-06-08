@@ -70,6 +70,7 @@ export default {
         'playstore': "url('assets/images/app-store/play-store.png')",
         'pencil': "url('assets/icons/utils/pencil.svg')",
         'arrowToShape': "url('assets/icons/utils/arrowToShape.svg')",
+        '404': "url('assets/images/utils/404.jpg')",
       },
       screens: {
         "wide": "1440px"
