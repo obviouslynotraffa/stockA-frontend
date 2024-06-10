@@ -29,19 +29,23 @@ const GoodToKnow = () => {
 
                     </summary>
                     <div className="flex flex-col font-montserrat gap-10 text-gray-800">
-                        <div className="flex flex-col gap-2 pt-5">
-                            <p className="font-bold text-lg">
-                                {item.subt1}
-                            </p>
+                        <div className="flex flex-col gap-1 pt-5">
+                            { item.title && (
+                                <p className="font-bold text-lg">
+                                    {item.subt1}
+                                </p>
+                            )}
                             <p>
                                 {item.text1}
                             </p>
                         </div>
                         
-                        <div className="flex flex-col gap-2">
-                            <p className="font-bold text-lg">
-                                {item.subt2}
-                            </p>
+                        <div className="flex flex-col gap-1">
+                        { item.title && (
+                                <p className="font-bold text-lg">
+                                    {item.subt2}
+                                </p>
+                            )}
                             <p>
                                 {item.text2}
                             </p>
