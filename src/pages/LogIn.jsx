@@ -4,14 +4,12 @@ import { Helmet, HelmetProvider } from "react-helmet-async"
 const LogIn = () => {
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-            <title>Sign In &ndash; StockA</title>
-            <meta name="description" content="Login to your StockA's account to live the full experience" />
-            <meta name="keywords" content="StockA, login, account, sign in, sign up, create account"/>
-            <meta name="author" content="StockA"/>
-        </Helmet>
-      </HelmetProvider>
+      <Helmet>
+          <title>Sign In &ndash; StockA</title>
+          <meta name="description" content="Login to your StockA's account to live the full experience" />
+          <meta name="keywords" content="StockA, login, account, sign in, sign up, create account"/>
+          <meta name="author" content="StockA"/>
+      </Helmet>
       <main>
         <section className='w-full py-10 mb-8 max-w-screen-wide max-container'>
           <div className='max-lg:hidden w-[75%] h-[750px] bg-white m-auto flex justify-center items-center rounded-lg shadow-2xl shadow-gray-800'>

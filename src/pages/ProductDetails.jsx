@@ -17,15 +17,13 @@ const ProductDetails = () => {
 
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>{product.shoeName} &ndash; StockA</title>
-          <meta charset="UTF-8"/>
-          <meta name="description" content={"Product detail page of " + product.shoeName } />
-          <meta name="keywords" content={"StockA, " + product.shoeName + product.URLName + product.SKU + product.price}/>
-          <meta name="author" content="StockA"/>
-        </Helmet>
-      </HelmetProvider>
+      <Helmet>
+        <title>{product.shoeName} &ndash; StockA</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content={"Product detail page of " + product.shoeName } />
+        <meta name="keywords" content={"StockA, " + product.shoeName + product.URLName + product.SKU + product.price}/>
+        <meta name="author" content="StockA"/>
+      </Helmet>
       <main>
         <Breadcrumb shoeName={product.shoeName} />
         <ShoeDetails product={product} />    

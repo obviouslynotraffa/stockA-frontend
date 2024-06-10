@@ -5,14 +5,12 @@ import { Link } from "react-router-dom"
 const Page404 = () => {
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>404 &ndash; StockA</title>
-          <meta name="description" content="Page not found" />
-          <meta name="keywords" content="Page not found"/>
-          <meta name="author" content="StockA"/>
-        </Helmet>
-      </HelmetProvider>
+      <Helmet>
+        <title>404 &ndash; StockA</title>
+        <meta name="description" content="Page not found" />
+        <meta name="keywords" content="Page not found"/>
+        <meta name="author" content="StockA"/>
+      </Helmet>
       <main className="w-full py-10 padding-x max-w-screen-wide max-container">
         <div className="flex flex-col-reverse md:flex-row justify-center md:justify-around items-center gap-5">
           <div className="w-[85%] md:w-[40%] h-[250px] md:h-[500px] bg-404 bg-center bg-no-repeat bg-contain">
