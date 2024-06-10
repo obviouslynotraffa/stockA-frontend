@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
       </nav>
       {menuOpen && (
-        <div className='bg-black text-white p-4 absolute top-[108px] right-0 w-full h-[445px] flex flex-col items-start z-50 lg:hidden'>
+        <div className='bg-black text-white p-4 absolute top-[105px] right-0 w-full h-[445px] flex flex-col items-start z-50 lg:hidden'>
           <ul className='flex flex-col items-start gap-10 pt-5 w-full'>
             {navLinksMobile.map((item) => (
               <CustomLink
