@@ -28,7 +28,7 @@ const FAQ = () => {
                             </span>
                             
                         </summary>
-                            <p className="font-montserrat text-gray-800 px-4">
+                            <p className="font-montserrat text-gray-800 px-4 pt-5">
                                 {info.answer}
                             </p>
                     </details>
